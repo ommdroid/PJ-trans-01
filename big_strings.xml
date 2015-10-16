@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Smart Home</string>
+    <string name="app_name">Smart Home Test Pull git</string>
     <string name="air_purifier_common_indoor_detail_title">Indoor</string>
     <string name="air_purifier_common_indoor_detail_location">Location:</string>
     <string name="air_purifier_common_indoor_detail_pm25">Fine particulate matter(PM2.5):</string>
@@ -12,6 +12,7 @@
     <string name="air_purifier_common_outdoor_detail_pm25">Fine particulate matter(PM2.5):</string>
     <string name="air_purifier_common_outdoor_detail_aqi">Air Quality Index:</string>
     <string name="air_purifier_common_outdoor_detail_pm10">Particulate Matter(PM10):</string>
+    <string name="app_name">Test differrent Pull git for test</string>
     <string name="air_purifier_common_outdoor_detail_o3">Ozone:</string>
     <string name="air_purifier_common_outdoor_detail_no2">Nitrogen dioxide:</string>
     <string name="air_purifier_common_outdoor_detail_so2">Sulfur dioxide:</string>
