@@ -1,5 +1,1920 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="SDcard_tip_is_full_when_take_photo">Clean up SD card to send photo :)</string>
+    <string name="SDcard_tip_when_send_photo">Install SD card to to send photos :)</string>
+    <string name="about_check_update">Check for updates</string>
+    <string name="about_developer">Developer options</string>
+    <string name="about_faq">FAQ</string>
+    <string name="about_faq_content">"Check if Wi-Fi is working
+ 1. Check if the Wi-Fi password you've entered is correct
+ 2. Network speed may be slow
+ 3. WEP and EAP encryption may not be supported
+ 4. Check if router is connected to the Internet
+ 5. Can't connect to public Wi-Fi
+ 6. Can't connect to Wi-Fi 5G
+"</string>
+    <string name="about_faq_link">(Learn how)</string>
+    <string name="about_hight_light">Advantages</string>
+    <string name="about_normal">Switch to stable build</string>
+    <string name="about_region">Select region</string>
+    <string name="about_smarthome_bbs">Mi Home forum</string>
+    <string name="about_test">Switch to developer build</string>
+    <string name="account_login">Log in</string>
+    <string name="activity_title_upgrade">Updates</string>
+    <string name="add_back_device_error">"Couldn't remove, try again"</string>
+    <string name="add_btn_text">Add</string>
+    <string name="add_device">Add device</string>
+    <string name="add_failed">"Couldn't add, try again later"</string>
+    <string name="add_family_member">Add family member</string>
+    <string name="add_family_success">Added</string>
+    <string name="add_or_kick_device_failed">Something went wrong, try again</string>
+    <string name="add_other_family">Add other family members</string>
+    <string name="add_scene">Add location</string>
+    <string name="add_timer_button">Add now</string>
+    <string name="add_timer_hint">No timers added</string>
+    <string name="air_con_subtitle">%1$s %2$.1f℃</string>
+    <string name="air_error_page_text">"When you can't connect to the purifier or connect for the first time, press the two buttons as shown for 5 seconds until you hear a signal signifying Wi-Fi's been reset."</string>
+    <string name="air_purifier">Mi Air Purifier</string>
+    <string name="air_purifier_auto">Auto</string>
+    <string name="air_purifier_closed">Closed</string>
+    <string name="air_purifier_high">Strong</string>
+    <string name="air_purifier_low">Low</string>
+    <string name="air_purifier_medium">Medium</string>
+    <string name="air_purifier_open">Open</string>
+    <string name="air_purifier_pm25">PM2.5</string>
+    <string name="air_purifier_silient">Silent</string>
+    <string name="air_purifier_strong">High</string>
+    <string name="air_reset_title_text">Reset Air Purifier</string>
+    <string name="air_serach_no_device_green_1">If green light is flashing, the purifier is waiting to be connected</string>
+    <string name="air_serach_no_device_green_2">If green light is steady, the purifier is being used, reset it</string>
+    <string name="all_model_latest">All devices are up-to-date</string>
+    <string name="all_plugin_latest">All plug-ins are up-to-date</string>
+    <string name="app_curr_version">Current version:</string>
+    <string name="app_latest_version_installed">Installed version is up-to-date</string>
+    <string name="app_latest_version_installed_smarthome">Current version is the latest one</string>
+    <string name="app_name">Mi Home</string>
+    <string name="app_name2">Mi Home</string>
+    <string name="app_tip_latest">App is up-to-date</string>
+    <string name="app_updating">Updating…</string>
+    <string name="app_upgrade_check_smarthome">Checking…</string>
+    <string name="app_upgrade_detail_smarthome">New version available,update now?</string>
+    <string name="app_upgrade_failed_smarthome">"Couldn't download, try again"</string>
+    <string name="application_feedback">Additional apps</string>
+    <string name="back_name_less_limit_30">"Name shouldn't be longer than 30 characters"</string>
+    <string name="back_name_less_limit_not_null">"Name can't be blank"</string>
+    <string name="before_yesterday">Day before yesterday</string>
+    <string name="begin_connection">Connect</string>
+    <string name="bind_bind">Connected</string>
+    <string name="bind_device_error_4">Connection timeout, reset device and try again</string>
+    <string name="bind_device_error_6">Verification code incorrect</string>
+    <string name="bind_error">"Couldn't perform operation"</string>
+    <string name="bind_error_info">"1. Check network connection
+ 2. Press the power button again to connect"</string>
+    <string name="bind_info">Reset and try again</string>
+    <string name="bind_success">Operation performed successfully</string>
+    <string name="bind_title">Details</string>
+    <string name="bind_unbind">Not connected</string>
+    <string name="binding_feedback">Adding account</string>
+    <string name="bing_tips">How to reset</string>
+    <string name="bought_device_go">Find out more</string>
+    <string name="bought_device_remote">Smart control</string>
+    <string name="bought_device_switch">Mi plug</string>
+    <string name="button_bind">Add</string>
+    <string name="button_bind_failed">"Couldn't connect, check network connection"</string>
+    <string name="button_bind_failed_info">Check if the device and your phone are connected to the same router and try again.</string>
+    <string name="button_bind_failed_old_version">"Couldn't add, make sure Mi TV or Mi Box system is up-to-date"</string>
+    <string name="button_bind_mitv">Sign in</string>
+    <string name="button_bind_success">Connected successfully</string>
+    <string name="button_bind_tips">Press any button within %d seconds to connect</string>
+    <string name="calorie">cal</string>
+    <string name="camera_bind_erro_time_out">Connection timed out, reset your connection and try again</string>
+    <string name="camera_bind_erro_verify_coder">The code you entered is incorrect</string>
+    <string name="camera_bind_error">"Couldn't add"</string>
+    <string name="camera_bind_input_verify_code">Enter four-digit voice code as instructed by your camera</string>
+    <string name="camera_bind_trigger_camera_token_error">"Couldn't find camera"</string>
+    <string name="camera_config_no_localdevice">"Couldn't connect, refresh and try again"</string>
+    <string name="camera_config_no_uid">Сamera ID required</string>
+    <string name="camera_config_not_support">"Connection to video camera isn't currently supported on this device"</string>
+    <string name="camera_gen_barcode_error">"Couldn't generate QR code"</string>
+    <string name="camera_gen_barcode_tips">"Put the QR code on the phone's screen in front of the camera, and keep it at a distance equal to the length of the phone. Wait for the camera to scan the QR code"</string>
+    <string name="camera_gen_barcode_tips_help">"Can't hear the prompt?"</string>
+    <string name="camera_gen_barcode_tips_help_0">"What if I don't hear the prompt?"</string>
+    <string name="camera_gen_barcode_tips_help_1">1. Insert the needle into the hole on the reverse side of the camera, and wait until the LED light turns yellow and stays lit. Connect the camera again.</string>
+    <string name="camera_gen_barcode_tips_help_2">2. Your mobile phone may not be able to scan QR codes. Reset the camera and connect again.</string>
+    <string name="camera_gen_barcode_tips_reset_info1">1. Insert the needle into the hole on the reverse side of the camera, and wait until the LED light turns yellow and stays lit</string>
+    <string name="camera_gen_barcode_tips_reset_info2">"2. Wait until the yellow light starts flashing and tap 'OK'"</string>
+    <string name="camera_local_scan">Local scan</string>
+    <string name="camera_name">Yi Camera</string>
+    <string name="camera_not_show_top_snap">"Don't show images on top"</string>
+    <string name="camera_online">Camera online</string>
+    <string name="camera_remote_scan">Cloud scan</string>
+    <string name="camera_serach_no_device_blue">If blue light is steady or flashing, the camera is being used, reset it</string>
+    <string name="camera_serach_no_device_red">"If red light is steady, the camera is starting. If red light is flashing it's waiting to be connected"</string>
+    <string name="camera_show_top_snap">Show images on top</string>
+    <string name="camera_subtitle_motion">%1$s detected changes in the frame</string>
+    <string name="cancel">Cancel</string>
+    <string name="capcha_error">Captcha wrong</string>
+    <string name="change_account_name">Edit name</string>
+    <string name="change_back_name">Rename</string>
+    <string name="change_back_name_fail">"Couldn't rename, try again"</string>
+    <string name="change_head_fail">"Couldn't change profile pic"</string>
+    <string name="change_head_icon">Change profile pic</string>
+    <string name="change_head_success">Profile pic changed</string>
+    <string name="change_nick_fail">"Couldn't change nickname"</string>
+    <string name="change_nick_success">Nickname changed</string>
+    <string name="change_password_new">New</string>
+    <string name="changeing_back_name">Renaming…</string>
+    <string name="changing_pwd">updating...</string>
+    <string name="changing_pwd_failed">Change failure</string>
+    <string name="changing_pwd_succeed">Modify success</string>
+    <string name="check_upgrading_error">"Couldn't check for updates"</string>
+    <string name="check_upgrading_error_smarthome">"Couldn't check for updates, try again"</string>
+    <string name="checking">Checking…</string>
+    <string name="choose_detail_wifi">"Preparing to connect %s
+"</string>
+    <string name="choose_device_title">Choose device</string>
+    <string name="choose_home_wifi">Choose home Wi-Fi</string>
+    <string name="choose_office_wifi">Choose office Wi-Fi</string>
+    <string name="choose_question">Choose a category</string>
+    <string name="choose_same_ssid_error">Choose a different Wi-Fi network</string>
+    <string name="choose_wifi_count_over">"Can't select more than 6 items"</string>
+    <string name="choosedevice_wifi_title">Choose network for the device to connect</string>
+    <string name="chose_cannot_both_empty">Select at least 1 item</string>
+    <string name="click_to_choose_wlan">Tap to choose Wi-Fi</string>
+    <string name="client_connect_fail">"Couldn't connect to device"</string>
+    <string name="client_connect_kuailian">%s devices connected</string>
+    <string name="client_connect_kuailian_device">Connecting %s…</string>
+    <string name="client_connect_kuailian_green">%s devices found</string>
+    <string name="client_download_speed_k">%s KB/s</string>
+    <string name="client_download_total">%1$s GB</string>
+    <string name="client_info">Device info</string>
+    <string name="client_kuailian">Quick connection to router</string>
+    <string name="client_kuailian_failed">"Couldn't connect, try again"</string>
+    <string name="client_kuailian_failed_binding">"Time's up, forgot to press the button?"</string>
+    <string name="client_kuailian_not_find_subdevice">New device not found, try again</string>
+    <string name="client_kuailian_succed">%s devices connected</string>
+    <string name="client_kuailian_succed_bind">%s connected, press any physical button to confirm</string>
+    <string name="client_kuailian_succed_binding">Connecting %s</string>
+    <string name="client_kuailian_succed_device">%s connnected</string>
+    <string name="client_kuailian_succed_device_nobinding">%s connected, confirm connection</string>
+    <string name="client_kuailian_tips">Updating your router can help find more devices</string>
+    <string name="client_manage">Device</string>
+    <string name="close">Turn off</string>
+    <string name="close_wifi_failed">"Couldn't turn on, go to Settings"</string>
+    <string name="close_wifi_message">Turn on Wi-Fi first</string>
+    <string name="closing">Turning off…</string>
+    <string name="color_setting_tip">Drag the slider to change the color of the indication light</string>
+    <string name="comefrom_device">From</string>
+    <string name="comment_back">Back</string>
+    <string name="comment_from_site_app">From Mi Store app</string>
+    <string name="comment_from_site_web">From mi.com</string>
+    <string name="comment_get_data_failed">"Couldn't get info"</string>
+    <string name="comment_multi_graph_number">Total: %d items</string>
+    <string name="comment_no_comment">No comments for this product</string>
+    <string name="comment_offical_reply_prefix">Official reply:</string>
+    <string name="comment_person">User</string>
+    <string name="comment_pic_view_format">%1$s/%2$s</string>
+    <string name="comment_product_comments">Сomments</string>
+    <string name="comment_reply">Reply\u0009</string>
+    <string name="comment_reply_detail">Details</string>
+    <string name="comment_reply_format">Reply %s</string>
+    <string name="comment_reply_hint">Reply to comment</string>
+    <string name="comment_reply_suffix">:</string>
+    <string name="comment_reply_total">User comments (%d)</string>
+    <string name="comment_save_pic">Save</string>
+    <string name="comment_save_pic_failed">"Couldn't save image, check your SD card"</string>
+    <string name="comment_save_pic_success">Image saved to %s</string>
+    <string name="comment_save_pic_unavailiable">Download image first</string>
+    <string name="comment_submit_suc_toast">Submitted, waiting for approval</string>
+    <string name="comment_update_failed">"Couldn't get info"</string>
+    <string name="comment_updown_already_toast">You have already rated this comment</string>
+    <string name="commit">Submit</string>
+    <string name="common_finish">Completed</string>
+    <string name="common_hint">Prompt</string>
+    <string name="complete">Complete</string>
+    <string name="condition_come_home">Home mode</string>
+    <string name="condition_leave_home">Away mode</string>
+    <string name="confirm_button">OK</string>
+    <string name="confirm_delete_family">Sure you want to delete family members?</string>
+    <string name="confirm_quit">Exit now</string>
+    <string name="connect_first_step">Plug the device in, make sure the light is flashing</string>
+    <string name="connect_first_step_has_ready">Mi Plug found, tap Next to connect</string>
+    <string name="connect_second_step">Step 2: Choose network for the device to connect</string>
+    <string name="connect_time">Current connection time</string>
+    <string name="connect_type">Connection type</string>
+    <string name="connect_type_line">LAN</string>
+    <string name="connect_type_wifi_24">WLAN 2.4G</string>
+    <string name="connect_type_wifi_5">WLAN 5G</string>
+    <string name="content_description">Description (required)</string>
+    <string name="continue_nextstep">Next</string>
+    <string name="control_panel">Remote controls</string>
+    <string name="conversation_edit_title_middle">Selected %s items</string>
+    <string name="copy">Copy</string>
+    <string name="creating">Creating…</string>
+    <string name="crop_fail_to_load_image">"Couldn't load image"</string>
+    <string name="crop_image_next">OK</string>
+    <string name="crop_image_title">Crop image</string>
+    <string name="curent_password">Current</string>
+    <string name="current_all_step">Current steps</string>
+    <string name="current_speed">Current speed</string>
+    <string name="date_format_key">%2$d/%1$d</string>
+    <string name="day">day</string>
+    <string name="delete">Delete</string>
+    <string name="developer_plug_debug">Plug-in testing</string>
+    <string name="developer_plugin_info">plug-in information</string>
+    <string name="developer_remote_debug">Cloud testing address</string>
+    <string name="developing_desc">"We're working on this feature"</string>
+    <string name="device_closed">Off</string>
+    <string name="device_detail_detail">View details</string>
+    <string name="device_detail_mac_address">MAC address %s</string>
+    <string name="device_detail_network">Internet access</string>
+    <string name="device_detail_option_cumstom">Custom colors</string>
+    <string name="device_detail_option_rename">Rename</string>
+    <string name="device_detail_pri_storage">Private storage access</string>
+    <string name="device_detail_save">Saving settings</string>
+    <string name="device_detail_storage">Shared storage access</string>
+    <string name="device_failed">"Couldn't complete operation"</string>
+    <string name="device_more_activity_about">About</string>
+    <string name="device_more_activity_common_setting">General settings</string>
+    <string name="device_more_activity_feedback">Feedback</string>
+    <string name="device_more_activity_firmware_update">Firmware update</string>
+    <string name="device_more_activity_help">Help</string>
+    <string name="device_more_activity_new_firmware">New version %s</string>
+    <string name="device_more_activity_rename">Rename</string>
+    <string name="device_more_activity_reset">Reset</string>
+    <string name="device_more_activity_setting">Settings</string>
+    <string name="device_more_activity_share">Share with family</string>
+    <string name="device_more_activity_title">More functions</string>
+    <string name="device_more_activity_unbind">Disconnect</string>
+    <string name="device_nickname">Device name</string>
+    <string name="device_offline">Devices are offline</string>
+    <string name="device_offline_check">Try these: 1. Make sure the devices are plugged in; 2. Make sure Wi-Fi is working; 3. Reset the devices; Then refresh the list of the devices</string>
+    <string name="device_offline_text">Try these: 1. Make sure the devices are plugged in; 2. Make sure Wi-Fi is working; 3. Reset the device; Then refresh the list of the devices</string>
+    <string name="device_offline_title">Device offline</string>
+    <string name="device_open">On</string>
+    <string name="device_shop">Store</string>
+    <string name="device_shop_add_comment_default_hint">Tell us what you think</string>
+    <string name="device_shop_add_comment_err">"Couldn't add comment"</string>
+    <string name="device_shop_add_comment_ok">Comment added</string>
+    <string name="device_shop_add_comment_title">Add comment</string>
+    <string name="device_shop_add_comment_title_hint">Enter subject</string>
+    <string name="device_shop_addr_add_err">"Couldn't add address"</string>
+    <string name="device_shop_addr_add_ok">Address added</string>
+    <string name="device_shop_addr_check_distict">"Province, city, and district can't be empty"</string>
+    <string name="device_shop_addr_check_name">"Name can't be empty"</string>
+    <string name="device_shop_addr_check_street">"Address can't be shorter than 5 characters"</string>
+    <string name="device_shop_addr_check_tel">"Phone number can't be empty"</string>
+    <string name="device_shop_addr_check_zipcode">"ZIP code can't be empty"</string>
+    <string name="device_shop_addr_select_content">Choose contact</string>
+    <string name="device_shop_addr_update_err">"Couldn't update address"</string>
+    <string name="device_shop_addr_update_ok">Address updated</string>
+    <string name="device_shop_address_consignee">Recipient name</string>
+    <string name="device_shop_address_del_err">"Couldn't delete"</string>
+    <string name="device_shop_address_del_ok">Deleted</string>
+    <string name="device_shop_address_district">Region</string>
+    <string name="device_shop_address_dlg_title">Select method</string>
+    <string name="device_shop_address_menu_del">Delete</string>
+    <string name="device_shop_address_modify_button">Save</string>
+    <string name="device_shop_address_new">Add address</string>
+    <string name="device_shop_address_street">Address</string>
+    <string name="device_shop_address_tel">Phone number</string>
+    <string name="device_shop_address_title">Address</string>
+    <string name="device_shop_address_zipcode">ZIP code</string>
+    <string name="device_shop_cart_add_failed">Empty cart and try again</string>
+    <string name="device_shop_cart_checkout_name">Check out</string>
+    <string name="device_shop_cart_checkout_shipment_title">"Free delivery for orders over ￥150 (doesn't include Mi TV, Air purifier, and Mi Scale)"</string>
+    <string name="device_shop_cart_checkout_supply_title">Order contents</string>
+    <string name="device_shop_cart_checkout_total_price">￥%1$s</string>
+    <string name="device_shop_cart_checkout_total_price_title">Total:</string>
+    <string name="device_shop_cart_good_add_failed">"Couldn't add to cart"</string>
+    <string name="device_shop_cart_good_add_success">Added to cart</string>
+    <string name="device_shop_cart_good_del_failed">"Couldn't delete"</string>
+    <string name="device_shop_cart_good_del_success">Deleted</string>
+    <string name="device_shop_cart_good_del_title">Delete this product?</string>
+    <string name="device_shop_cart_good_edit_consumption_failed">"Couldn't change"</string>
+    <string name="device_shop_cart_good_edit_consumption_success">Changed successfully</string>
+    <string name="device_shop_cart_good_insure_button_title">Buy for ￥%1$s/pcs</string>
+    <string name="device_shop_cart_good_insure_title">Additional warranty</string>
+    <string name="device_shop_cart_good_single_price">Price: ￥%1$s</string>
+    <string name="device_shop_cart_good_total_price">Total: ￥%1$s</string>
+    <string name="device_shop_cart_goto_main_page">Go shopping</string>
+    <string name="device_shop_cart_menu_address_title">Address</string>
+    <string name="device_shop_cart_menu_aftermarket_title">Support</string>
+    <string name="device_shop_cart_menu_cart_title">Cart</string>
+    <string name="device_shop_cart_menu_discount_title">Redeem</string>
+    <string name="device_shop_cart_menu_favor_title">Favorites</string>
+    <string name="device_shop_cart_menu_friend_code_title">F code</string>
+    <string name="device_shop_cart_menu_order_title">My orders</string>
+    <string name="device_shop_cart_menu_xiaomi_title">Selected products</string>
+    <string name="device_shop_cart_null">Cart emty</string>
+    <string name="device_shop_cart_select_btn_title">Add to cart</string>
+    <string name="device_shop_cart_select_item_title">Select product</string>
+    <string name="device_shop_cart_supply_multi">(multiple)</string>
+    <string name="device_shop_cart_supply_price">￥%1$s</string>
+    <string name="device_shop_cart_supply_price2">Discount￥%1$s</string>
+    <string name="device_shop_cart_title">Shopping cart</string>
+    <string name="device_shop_checkout_button_title">Submit</string>
+    <string name="device_shop_checkout_cart_list_title">Details: total %1$s pcs</string>
+    <string name="device_shop_checkout_deliver_title">Delivery time</string>
+    <string name="device_shop_checkout_invoice_title2">Name</string>
+    <string name="device_shop_checkout_invoice_type">Invoice type</string>
+    <string name="device_shop_checkout_modify_title">Edit</string>
+    <string name="device_shop_checkout_payment_title">Payment method</string>
+    <string name="device_shop_checkout_price_tail">￥%1$s</string>
+    <string name="device_shop_checkout_shipment_title">Delivery method</string>
+    <string name="device_shop_checkout_submit_failed">"Couldn't submit order"</string>
+    <string name="device_shop_checkout_submit_success">Order submitted</string>
+    <string name="device_shop_checkout_title">Confirm</string>
+    <string name="device_shop_checkout_total_price_title">Total:</string>
+    <string name="device_shop_comment_commit">Add comment</string>
+    <string name="device_shop_comment_is_null">Enter at least 10 characters</string>
+    <string name="device_shop_comment_tag_count">"Can't exceed 10 characters"</string>
+    <string name="device_shop_comment_title_is_null">Enter at least 5 characters</string>
+    <string name="device_shop_detail_bottom_title">Add to cart</string>
+    <string name="device_shop_detail_bottom_title1">Buy now</string>
+    <string name="device_shop_detail_bottom_title2">Cart</string>
+    <string name="device_shop_detail_catogery">Choose color, model, etc.</string>
+    <string name="device_shop_detail_comment_count">(%1$d)</string>
+    <string name="device_shop_detail_comment_title">Comments</string>
+    <string name="device_shop_detail_reserve">Pre-order</string>
+    <string name="device_shop_dialog_load_failed">"Couldn't load"</string>
+    <string name="device_shop_dialog_load_title">Working…</string>
+    <string name="device_shop_dialog_loading">Loading…</string>
+    <string name="device_shop_dialog_time_format">Countdown %1$02d:%2$02d:%3$02d</string>
+    <string name="device_shop_dist_title_city">District</string>
+    <string name="device_shop_dist_title_district">City</string>
+    <string name="device_shop_dist_title_province">Province</string>
+    <string name="device_shop_favor_add_failure">"Couldn't add to favorites"</string>
+    <string name="device_shop_favor_add_success">Added to favorites</string>
+    <string name="device_shop_favor_del_failure">"Couldn't remove from favorites"</string>
+    <string name="device_shop_favor_del_success">Removed from favorites</string>
+    <string name="device_shop_favor_null_title">Empty</string>
+    <string name="device_shop_favor_title">Favorites</string>
+    <string name="device_shop_fragment_saled">%1$s people bought this</string>
+    <string name="device_shop_goods_comment_title">Select comment</string>
+    <string name="device_shop_loading_failed">"Couldn't load data"</string>
+    <string name="device_shop_location_error">"Couldn't get location"</string>
+    <string name="device_shop_no_comment_goods">No products to comment</string>
+    <string name="device_shop_no_location_provider">"Couldn't get location, check permissions."</string>
+    <string name="device_shop_no_trace_info">No shipment info</string>
+    <string name="device_shop_no_trace_title">No shipment info</string>
+    <string name="device_shop_order_address">Address</string>
+    <string name="device_shop_order_cancel">Cancel order</string>
+    <string name="device_shop_order_cancel_err">"Couldn't cancel order"</string>
+    <string name="device_shop_order_cancel_ok">Order canceled</string>
+    <string name="device_shop_order_comment">Comments</string>
+    <string name="device_shop_order_create_date">Order date</string>
+    <string name="device_shop_order_customer_service">Support</string>
+    <string name="device_shop_order_date">Order date:</string>
+    <string name="device_shop_order_date_fmt">dd/MM/yyyy</string>
+    <string name="device_shop_order_delivery_type">Delivery time</string>
+    <string name="device_shop_order_detail">Details</string>
+    <string name="device_shop_order_detail_date_fmt">dd/MM/yyyy HH:mm:ss</string>
+    <string name="device_shop_order_detail_foot_money">Total:</string>
+    <string name="device_shop_order_detail_foot_money_fmt">￥%.2f</string>
+    <string name="device_shop_order_detail_id">Order No.</string>
+    <string name="device_shop_order_detail_total_money">Total</string>
+    <string name="device_shop_order_detail_total_money_fmt">￥%.2f</string>
+    <string name="device_shop_order_freight">Delivery fee</string>
+    <string name="device_shop_order_freight_fmt">￥%.2f</string>
+    <string name="device_shop_order_get_more">View more</string>
+    <string name="device_shop_order_goods_count_fmt">Total %d pcs</string>
+    <string name="device_shop_order_goods_item_count_fmt">× %d</string>
+    <string name="device_shop_order_goods_state">Order status</string>
+    <string name="device_shop_order_id">Order No.:</string>
+    <string name="device_shop_order_id2">Order No.</string>
+    <string name="device_shop_order_invoice_download">(Download)</string>
+    <string name="device_shop_order_invoice_title">Invoice name</string>
+    <string name="device_shop_order_invoice_type">Invoice type</string>
+    <string name="device_shop_order_list_no_more">"Can't load orders"</string>
+    <string name="device_shop_order_logistics">Check shipment</string>
+    <string name="device_shop_order_order_list_title">My order</string>
+    <string name="device_shop_order_pay_now">Pay now</string>
+    <string name="device_shop_order_price">Price:</string>
+    <string name="device_shop_order_price_fmt">￥%.2f</string>
+    <string name="device_shop_order_remain_count_fmt">Show %d remaining pcs</string>
+    <string name="device_shop_order_total_money">Total:</string>
+    <string name="device_shop_order_trace_id">Parcel No.</string>
+    <string name="device_shop_order_trace_info">Shipment info</string>
+    <string name="device_shop_pay_btn_name">Pay</string>
+    <string name="device_shop_pay_failed_title">System busy, try again later</string>
+    <string name="device_shop_pay_selected_title">Select payment method</string>
+    <string name="device_shop_pay_submit_success_title">Order submitted</string>
+    <string name="device_shop_pay_submit_success_title2">Orders not paid in time will be closed</string>
+    <string name="device_shop_pay_type_1">Alipay</string>
+    <string name="device_shop_pay_type_2">Union Pay</string>
+    <string name="device_shop_pay_type_title">Select payment method</string>
+    <string name="device_shop_payment_cont">Keep shopping</string>
+    <string name="device_shop_payment_fee">￥%1$s</string>
+    <string name="device_shop_payment_good_fee">Total</string>
+    <string name="device_shop_payment_good_name">Product name</string>
+    <string name="device_shop_payment_good_order">Order No.</string>
+    <string name="device_shop_payment_good_status">Payment status</string>
+    <string name="device_shop_payment_good_status_paid">Paid</string>
+    <string name="device_shop_payment_result_failed">Payment unsuccessful</string>
+    <string name="device_shop_payment_result_success">Payment successful</string>
+    <string name="device_shop_payment_show_order">Check order</string>
+    <string name="device_shop_payment_show_order_title">Order details</string>
+    <string name="device_shop_payment_title">Result</string>
+    <string name="device_shop_price">￥%1$.2f</string>
+    <string name="device_shop_refresh_ing">Refreshing…</string>
+    <string name="device_shop_search_box_hint">Search products</string>
+    <string name="device_shop_search_history_delete_all">Delete all</string>
+    <string name="device_shop_search_history_delete_error">"Couldn't delete history"</string>
+    <string name="device_shop_search_history_delete_item">Delete item</string>
+    <string name="device_shop_search_history_tag">History</string>
+    <string name="device_shop_search_hot_tag">Popular</string>
+    <string name="device_shop_search_keyword_invalidate">"Couldn't find keyword, try again"</string>
+    <string name="device_shop_search_result_empty">"Couldn't find products, try again"</string>
+    <string name="device_shop_search_result_price">￥%1$s</string>
+    <string name="device_shop_search_result_title">\"%1$s\"(%2$d results)</string>
+    <string name="device_shop_search_result_title_cache">Searching for\"%1$s\"</string>
+    <string name="device_shop_share_cancel">Canceled</string>
+    <string name="device_shop_share_download_pic_failed">"Couldn't load image"</string>
+    <string name="device_shop_share_failure">"Couldn't share"</string>
+    <string name="device_shop_share_no_app">No apps to share</string>
+    <string name="device_shop_share_no_miliao">Install Mi Talk and try again</string>
+    <string name="device_shop_share_no_weibo">Install Weibo and try again</string>
+    <string name="device_shop_share_no_weixin">Install WeChat and try again</string>
+    <string name="device_shop_share_success">Shared</string>
+    <string name="device_shop_share_weibo_not_support">"Current version of Weibo doesn't support sharing"</string>
+    <string name="device_shop_sub_comment_error">"Couldn't add comment"</string>
+    <string name="device_shop_sub_comment_label_error">"Couldn't add tag"</string>
+    <string name="device_shop_sub_picture_error">"Couldn't add image"</string>
+    <string name="device_shop_sure">OK</string>
+    <string name="device_shop_to_pay_title">Pay now</string>
+    <string name="device_shop_toast_no_distict_data">"Can't set address"</string>
+    <string name="device_shop_trace_detail_title">Shipment info</string>
+    <string name="device_shop_trace_goods_info_fmt">(total %d pcs)</string>
+    <string name="device_shop_trace_goods_info_title">Product info</string>
+    <string name="device_shop_trace_id_title">Tracking number</string>
+    <string name="device_shop_trace_null_tip">No shipment info</string>
+    <string name="device_shop_trace_select_title">Shipment info from various sources, select source</string>
+    <string name="device_shop_trace_title">Shipment info</string>
+    <string name="device_shop_tv_addr_tips">"A TV is a large home appliance, delivery company service may be required. Customer service will inform you if the address is not reachable, in which case you'll get a refund."</string>
+    <string name="device_shop_video_error">"Couldn't play video."</string>
+    <string name="disclaim_cancel">Cancel</string>
+    <string name="disclaim_confirm">Agree and continue</string>
+    <string name="disclaim_content">You should agree to our Terms of Use before you start using Mi Home. In order to connect to other devices, Mi Home needs to connect to the Internet, have access to location and Bluetooth, use mobile networks, and access to your contacts.</string>
+    <string name="disclaim_remember">"Don't show again"</string>
+    <string name="disclaim_title">Terms of Use</string>
+    <string name="do_task">Tasks</string>
+    <string name="dongle_failed">Dongle not connected properly</string>
+    <string name="double_click">Double tap</string>
+    <string name="download_error">"Couldn't download"</string>
+    <string name="download_feedback">Remote downloads</string>
+    <string name="download_info">Total downloaded</string>
+    <string name="download_speed">Current download speed</string>
+    <string name="edit">Edit</string>
+    <string name="err_input_curent_password">input current password</string>
+    <string name="err_input_new_password">input new password</string>
+    <string name="err_pls_input_pwd">Please input password</string>
+    <string name="error_led_status">Indication light</string>
+    <string name="exit">Exit</string>
+    <string name="family">Invite family members</string>
+    <string name="family_accept">OK</string>
+    <string name="family_accept_title">Invitation</string>
+    <string name="family_confirm_add_family">%1$s wants to add you as a family member, accept?</string>
+    <string name="family_default_accept_name">You are this person\"s %s</string>
+    <string name="family_delete">Delete</string>
+    <string name="family_input_new_relation">Enter relationship with family member</string>
+    <string name="family_invite_in">Invite %s</string>
+    <string name="family_modify_nickname">Edit relationship info</string>
+    <string name="family_nickname_empty">Enter your relationship with this person</string>
+    <string name="family_reject">No, thanks</string>
+    <string name="family_share_count">Shared %s devices</string>
+    <string name="family_share_detail_title">Details</string>
+    <string name="family_share_device_count">Shared %s devices</string>
+    <string name="family_share_time">%1$s.%2$s.%3$s shared</string>
+    <string name="family_wait_accept">Invitation sent</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_app_succ_router_fail">Log uploaded</string>
+    <string name="feedback_contact_header">Contact info:</string>
+    <string name="feedback_contact_tips">Phone number (required)</string>
+    <string name="feedback_content_header">Feedback:</string>
+    <string name="feedback_error">"Couldn't send feedback, try again"</string>
+    <string name="feedback_succ">Sent</string>
+    <string name="feedbacking">Sending feedback…</string>
+    <string name="find_mikey">Find Mi Key</string>
+    <string name="find_user_info_error">"Can't find this person"</string>
+    <string name="found_new_unbind_mitvdevice">New TV found, tap to add</string>
+    <string name="found_new_unbind_routerdevice">New router found, tap to add</string>
+    <string name="friday">Friday</string>
+    <string name="g_s">GB/s</string>
+    <string name="gateway_alarm_on">Alerts on</string>
+    <string name="gateway_battery_low_waring">Replace battery</string>
+    <string name="gateway_bodysensor_no_motion_5">No body movement detected within 5 minutes</string>
+    <string name="gateway_bodysensor_setting">Motion sensor</string>
+    <string name="gateway_doorbell_ring">Doorbell ringing</string>
+    <string name="gateway_edit_scene">Edit</string>
+    <string name="gateway_magnet_location_updating">Updating…</string>
+    <string name="gateway_magnet_name">Door and window sensor</string>
+    <string name="gateway_main_title">Mi Home Suite</string>
+    <string name="gateway_motion_name">Motion sensor</string>
+    <string name="gateway_music_title">Doorbell</string>
+    <string name="gateway_myscene">My location</string>
+    <string name="gateway_name">Doorbell</string>
+    <string name="gateway_no_device">No device</string>
+    <string name="gateway_no_support_firmware">"Firmware isn't supported"</string>
+    <string name="gateway_no_support_firmware_allow_update">Current version of firmware is no longer supported. Update firmware</string>
+    <string name="gateway_remove_scene">Delete location</string>
+    <string name="gateway_remove_subdevice_tips">Remove device</string>
+    <string name="gateway_rename_scene">Rename</string>
+    <string name="gateway_scene">Location</string>
+    <string name="gateway_scene_empty_tip">No locations</string>
+    <string name="gateway_sub_device_offline_text">Try these: 1. Trigger the sensor; 2. Reset and connect again; 3. Replace the battery</string>
+    <string name="gateway_sub_device_offline_url">Reset and connect again</string>
+    <string name="gateway_subdevice_connected">%d devices connected</string>
+    <string name="gateway_subtitle_magnet">Alert: %1$s door or window open</string>
+    <string name="gateway_subtitle_motion">Alert: %1$s passing movement</string>
+    <string name="gateway_subtitle_switch">Alert: %1$s wireless switch pressed</string>
+    <string name="gateway_switch_name">Wireless switch</string>
+    <string name="gateway_title">Doorbell</string>
+    <string name="gateway_user_cant_not_access">"Shared device doesn't have permission"</string>
+    <string name="gb">GB</string>
+    <string name="gelight_offline_text">Try these: 1. Restart; 2. Connect again</string>
+    <string name="gelight_parent_offline_text">%1$s offline, check %2$s</string>
+    <string name="get_clients_error">The device is offline or does not exist.</string>
+    <string name="get_wifi_scan_result_error">"Couldn't connect to Wi-Fi, check access"</string>
+    <string name="give_up_invite">Cancel</string>
+    <string name="go_to_buy">Go to store</string>
+    <string name="handle_error">"Couldn't complete operation"</string>
+    <string name="header_content_home">"You're back home"</string>
+    <string name="header_content_office">You are in the office</string>
+    <string name="header_content_outside">You are outside</string>
+    <string name="header_leave_home">Away from home</string>
+    <string name="header_leave_office">Away from office</string>
+    <string name="header_title_home">Home</string>
+    <string name="header_title_office">Back to the office</string>
+    <string name="header_title_outside">Away</string>
+    <string name="home_log_privacy">Travel log will obtain your location and Wi-Fi info</string>
+    <string name="home_set_failed">"Couldn't set, try again later"</string>
+    <string name="hour">hour</string>
+    <string name="ignore">Ignore</string>
+    <string name="input_account">Enter account ID</string>
+    <string name="input_account_null">Enter account ID and relationship</string>
+    <string name="input_capcha">Input captcha</string>
+    <string name="input_curent_password">Input current password</string>
+    <string name="input_new_password">Input new password(At least 8 characters)</string>
+    <string name="input_nick_name">Enter nickname</string>
+    <string name="intelligent_220v_plug">AC socket</string>
+    <string name="intelligent_plug">Mi Plug</string>
+    <string name="intelligent_plug_dunhao">,</string>
+    <string name="intelligent_plug_everyday">Every day</string>
+    <string name="intelligent_plug_everytime">Every week</string>
+    <string name="intelligent_plug_failed">"Couldn't set time, check connection"</string>
+    <string name="intelligent_plug_finish">Done</string>
+    <string name="intelligent_plug_five">Friday</string>
+    <string name="intelligent_plug_four">Thursday</string>
+    <string name="intelligent_plug_frequency_setting">Once</string>
+    <string name="intelligent_plug_friday">Friday</string>
+    <string name="intelligent_plug_hasoff">Turn off</string>
+    <string name="intelligent_plug_hason">Turn on</string>
+    <string name="intelligent_plug_monday">Monday</string>
+    <string name="intelligent_plug_off">Off</string>
+    <string name="intelligent_plug_off_setting">Turn off automatically</string>
+    <string name="intelligent_plug_on">On</string>
+    <string name="intelligent_plug_one">Monday</string>
+    <string name="intelligent_plug_open_setting">Turn on automatically</string>
+    <string name="intelligent_plug_repeat_setting">Repeat</string>
+    <string name="intelligent_plug_saturday">Saturday</string>
+    <string name="intelligent_plug_self">Customize</string>
+    <string name="intelligent_plug_seven">Sunday</string>
+    <string name="intelligent_plug_simplified">Mi Plug Mini</string>
+    <string name="intelligent_plug_six">Saturday</string>
+    <string name="intelligent_plug_sunday">Sunday</string>
+    <string name="intelligent_plug_three">Wednesday</string>
+    <string name="intelligent_plug_thursday">Thursday</string>
+    <string name="intelligent_plug_time">Time</string>
+    <string name="intelligent_plug_timer_repeat">Repeat</string>
+    <string name="intelligent_plug_timer_setting">Set timer</string>
+    <string name="intelligent_plug_tips">Set time at least 2 minutes after the current time, otherwise it go off in 24 hours.</string>
+    <string name="intelligent_plug_tuesday">Tuesday</string>
+    <string name="intelligent_plug_two">Tuesday</string>
+    <string name="intelligent_plug_wednesday">Wednesday</string>
+    <string name="intelligent_plug_workday">Weekday</string>
+    <string name="intelligent_usb_plug">USB socket</string>
+    <string name="inter_choose_title">Choose region</string>
+    <string name="inter_recommend">(Recommended)</string>
+    <string name="inter_sub_domain_in">India</string>
+    <string name="inter_sub_domain_sg">Singapore</string>
+    <string name="inter_sub_domain_tw">Taiwan</string>
+    <string name="internet_feedback">Network connection</string>
+    <string name="intro_camera_text_1">Feel safe wherever you are</string>
+    <string name="intro_camera_text_2">"Talk to the person who's there"</string>
+    <string name="intro_camera_text_3">"See all you want to see, even when it's dark"</string>
+    <string name="intro_plug_text_1">Use it just the way you want</string>
+    <string name="intro_plug_text_2">Control everything from far away</string>
+    <string name="intro_plug_text_3">Schedule time to turn it on or off</string>
+    <string name="intru_btn_text">Learn more</string>
+    <string name="invate_user_by_sms">"Can't find this person, send an invitation SMS?"</string>
+    <string name="invisible_in_main_device_list">"Don't show on device list"</string>
+    <string name="item_home">You are at home</string>
+    <string name="item_office">You are in the office</string>
+    <string name="item_outside">You are outside</string>
+    <string name="just_now">Just now</string>
+    <string name="k_s">KB/s</string>
+    <string name="kb">KB</string>
+    <string name="kb_s">KB/s</string>
+    <string name="kick_device_error">"Couldn't add to blocklist, try again"</string>
+    <string name="kilocalorie">Cal</string>
+    <string name="kilomile">km</string>
+    <string name="know_button">OK</string>
+    <string name="kuailian_cancel">Disconnect</string>
+    <string name="kuailian_check_reset">Reset</string>
+    <string name="kuailian_complete">Done</string>
+    <string name="kuailian_conn_error_router">Chosen router is not a Mi Router, continue anyway?</string>
+    <string name="kuailian_connectting_cloud">Router is trying to connect to Mi Cloud</string>
+    <string name="kuailian_connectting_router">Phone is trying to connect to router</string>
+    <string name="kuailian_fail_auth">Password incorrect, check if router password and encryption methods are correct (WPA/WPA2)</string>
+    <string name="kuailian_fail_connect">"Can't connect to the router, check router settings and signal strength"</string>
+    <string name="kuailian_fail_dhcp">"Can't obtain IP address, check if DHCP is on"</string>
+    <string name="kuailian_failed">"Couldn't connect, reset the device and try again"</string>
+    <string name="kuailian_failed_phone_router">"Phone can't connect to the router"</string>
+    <string name="kuailian_failed_result">"Couldn't connect, %s"</string>
+    <string name="kuailian_falied_bindkey_invalide">QR code expired, generate a new one?</string>
+    <string name="kuailian_falied_router">"Couldn't connect, check router settings"</string>
+    <string name="kuailian_find_nothing">Devices not found, connect anyway?</string>
+    <string name="kuailian_finish_now">Stop</string>
+    <string name="kuailian_get_error_help">Tap to watch video tutorial</string>
+    <string name="kuailian_get_error_help_text1">"1. Check if the Wi-Fi password you've entered is correct"</string>
+    <string name="kuailian_get_error_help_text2">2. Make sure the device is not too far from the router</string>
+    <string name="kuailian_main_title_1">%s found</string>
+    <string name="kuailian_main_title_2">Connect to Wi-Fi</string>
+    <string name="kuailian_main_title_3">Connect to %s</string>
+    <string name="kuailian_main_title_4">Verification</string>
+    <string name="kuailian_network_dns_error">DNS error, contact your network provider for support</string>
+    <string name="kuailian_network_error">Network error</string>
+    <string name="kuailian_network_slow">"Can't access ot.io.mi.com, contact your network provider for support"</string>
+    <string name="kuailian_network_test">Check network</string>
+    <string name="kuailian_no_passwd">No password</string>
+    <string name="kuailian_rescan_device">Scanning…</string>
+    <string name="kuailian_retry_network">Try again</string>
+    <string name="kuailian_save_passwd">Saved</string>
+    <string name="kuailian_still_connect">Continue anyway</string>
+    <string name="kuailian_sub_main_device_complete">%d devices connected</string>
+    <string name="kuailian_sub_main_device_count">Searching for other devices…</string>
+    <string name="kuailian_sub_main_device_finish">%d devices found, tap to finish</string>
+    <string name="kuailian_sub_main_title_1">Plug the device in and tap \"Next\" when LED light is flashing</string>
+    <string name="kuailian_sub_main_title_2">Select Wi-Fi for the device to connect</string>
+    <string name="kuailian_sub_main_title_3_1">Connecting…</string>
+    <string name="kuailian_sub_main_title_3_2">Connecting…</string>
+    <string name="kuailian_sub_main_title_3_3">Still working on it…</string>
+    <string name="kuailian_sub_main_title_3_4">Connecting…</string>
+    <string name="kuailian_sub_main_title_4">Press any button on the device within 30 seconds</string>
+    <string name="kuailian_sub_main_title_4_zhimi">Press any button on the device within 30 seconds</string>
+    <string name="kuailian_sub_main_title_waiting">Waiting for devices to connect…</string>
+    <string name="kuailian_success">Connected</string>
+    <string name="kuailian_success_phone_cloud">Phone connected to Mi Cloud</string>
+    <string name="kuailian_success_phone_router">Phone is connected to the router</string>
+    <string name="kuailian_uap_state_1">Sending router info</string>
+    <string name="kuailian_uap_state_2">Device is connecting to the router</string>
+    <string name="kuailian_uap_state_3">Device is connecting to Mi Cloud</string>
+    <string name="kuailian_unconn_reason">Devices may not support this type of network, use your router to connect</string>
+    <string name="kuailian_unsafe_wifi">Unsecured network</string>
+    <string name="kuailian_unsafe_wifi_content">Devices may not support this type of network, connect anyway?</string>
+    <string name="kuailian_unsafe_wifi_content_1">Network with the same name exists in the current environment, connect now?</string>
+    <string name="kuailian_wifi_security_type">Secured with %s</string>
+    <string name="kualian_conn_title">Can connect to the internet</string>
+    <string name="kualian_unconn_title">"Can't connect to the internet"</string>
+    <string name="label_account_id">Account ID</string>
+    <string name="label_birth">Birthday</string>
+    <string name="label_email">Email</string>
+    <string name="label_head">Profile pic</string>
+    <string name="label_name">Name</string>
+    <string name="label_phone">Phone number</string>
+    <string name="label_pwd">Change password</string>
+    <string name="label_sex">Gender</string>
+    <string name="launcher_login">Signing in…</string>
+    <string name="launcher_scene_loading">Loading locations…</string>
+    <string name="launcher_switch_to_userid">Switch to admin account</string>
+    <string name="lcd_error">--</string>
+    <string name="light_des">Brightness</string>
+    <string name="light_des_comma">Brightness:</string>
+    <string name="light_off_noopt">Light off</string>
+    <string name="list_device_offline">Device offline</string>
+    <string name="list_device_online">Device online</string>
+    <string name="list_device_poweroff">Device off</string>
+    <string name="list_item_curr_version">Current version</string>
+    <string name="list_item_latest_version">Latest version</string>
+    <string name="list_item_rebooting">Rebooting2026</string>
+    <string name="load_data_error">"Couldn't load data"</string>
+    <string name="loading_share_info">Getting info…</string>
+    <string name="local_device">Local device</string>
+    <string name="location_hint">Keep Wi-Fi on to make sure the data is accurate</string>
+    <string name="lock_device_type_ir">IR remote</string>
+    <string name="lock_empty_message_need_add">Add devices in Mi Home</string>
+    <string name="lock_empty_message_need_login">Sign in to use Mi Home</string>
+    <string name="lock_empty_title_need_add">No devices</string>
+    <string name="lock_empty_title_need_login">"You aren't signed in"</string>
+    <string name="lock_intell_title">Devices</string>
+    <string name="lock_ir_title">IR remote</string>
+    <string name="lock_loading">Loading</string>
+    <string name="lock_subtitle_not_lognin">Sign in first</string>
+    <string name="log_clear_all_logs">Delete all records?</string>
+    <string name="log_clear_error">"Couldn't delete"</string>
+    <string name="log_clear_success">Deleted</string>
+    <string name="log_day_athome_early">You came home early</string>
+    <string name="log_day_athome_late">You came home late</string>
+    <string name="log_day_athome_normal">You came home as usual</string>
+    <string name="log_day_atoffice_early">You came to work early</string>
+    <string name="log_day_atoffice_late">You came to work late</string>
+    <string name="log_day_atoffice_normal">You came to work as usual</string>
+    <string name="log_day_outhome_early">You left home early</string>
+    <string name="log_day_outhome_late">You left home late</string>
+    <string name="log_day_outhome_normal">You left home as usual</string>
+    <string name="log_day_outoffice_early">You got off work early</string>
+    <string name="log_day_outoffice_late">You got off work late</string>
+    <string name="log_day_outoffice_normal">You got off work as usual</string>
+    <string name="log_downlaoding">Loading logs…</string>
+    <string name="log_month_athome_Random">The time you came home this month is inconsistent</string>
+    <string name="log_month_athome_normal">You came home as usual this month</string>
+    <string name="log_month_athome_stdest">You came home on time this month</string>
+    <string name="log_month_atoffice_Random">The time you came to work this month is inconsistent</string>
+    <string name="log_month_atoffice_normal">You came to work as usual this month</string>
+    <string name="log_month_atoffice_stdest">You came to work on time this month</string>
+    <string name="log_month_outhome_Random">The time you left home this month is inconsistent</string>
+    <string name="log_month_outhome_normal">You left home as usual this month</string>
+    <string name="log_month_outhome_stdest">You left home on time this month</string>
+    <string name="log_month_outoffice_Random">The time you got off work this month is inconsistent</string>
+    <string name="log_month_outoffice_normal">You got off work as usual this month</string>
+    <string name="log_month_outoffice_stdest">You got off work on time this month</string>
+    <string name="log_no_logs">No logs</string>
+    <string name="log_scene_error">"Couldn't complete"</string>
+    <string name="log_scene_sucess">Operation complete</string>
+    <string name="log_title">Location logs</string>
+    <string name="log_week_athome_Random">The time you came home this week is inconsistent</string>
+    <string name="log_week_athome_normal">You came home as usual this week</string>
+    <string name="log_week_athome_stdest">You came home on time this week</string>
+    <string name="log_week_atoffice_Random">The time you came to work this week is inconsistent</string>
+    <string name="log_week_atoffice_normal">You came to work as usual this week</string>
+    <string name="log_week_atoffice_stdest">You came to work on time this week</string>
+    <string name="log_week_outhome_Random">The time you left home this week is inconsistent</string>
+    <string name="log_week_outhome_normal">You left home as usual this week</string>
+    <string name="log_week_outhome_stdest">You left home on time this week</string>
+    <string name="log_week_outoffice_Random">The time you got off work this week is inconsistent</string>
+    <string name="log_week_outoffice_normal">You got off work as usual this week</string>
+    <string name="log_week_outoffice_stdest">You got off work on time this week</string>
+    <string name="loggin_first">Sign in first</string>
+    <string name="login_account_hint">Email/phone number/Mi Account ID</string>
+    <string name="login_account_login">Sign in</string>
+    <string name="login_account_login_title">Account ID</string>
+    <string name="login_change_account"><u>Switch account</u></string>
+    <string name="login_des_icon">Sign in with Mi Account</string>
+    <string name="login_des_tips">"You haven't signed in yet"</string>
+    <string name="login_dynamic_token_fail">Invalid password</string>
+    <string name="login_dynamic_token_hint">Enter 6-character code</string>
+    <string name="login_dynamic_token_title">Dynamic password</string>
+    <string name="login_dynamic_token_trust">No password will be required to sign in</string>
+    <string name="login_forget_password">Forgot password</string>
+    <string name="login_local_admin_account_login">Sign in with admin password</string>
+    <string name="login_new_user_register">Sign up</string>
+    <string name="login_passport_input_fail">Mi Account ID or password invalid</string>
+    <string name="login_passport_login_fail">"Couldn't sign in with Mi Account"</string>
+    <string name="login_passport_login_waiting">Signing in…</string>
+    <string name="login_passport_logouting">Signing out…</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_pwd_digit_letter_only">Password need 8-16 characters, not all of numbers or letters</string>
+    <string name="login_pwd_no_chinese">Passwords can not contain Chinese characters</string>
+    <string name="login_system_account_admin_password"><u>Sign in with admin password</u></string>
+    <string name="login_system_login">Log in</string>
+    <string name="login_time_out">Connection timeout, try again later</string>
+    <string name="login_to_use_location_log">Sign in to use travel log</string>
+    <string name="login_verify_code_fail">Enter valid verification code</string>
+    <string name="login_verify_code_hint">Verification code</string>
+    <string name="login_xiaomi_account_login">Sign in with Mi Account</string>
+    <string name="login_xiaomi_account_login_link"><u>Sign in with Mi Account</u></string>
+    <string name="loing_helper_title">Sign in first</string>
+    <string name="m_s">MB/s</string>
+    <string name="mac_address">MAC address</string>
+    <string name="main_page_ad_main_title">Check out the devices recommended to you</string>
+    <string name="main_page_ad_sub_title">Find the devices you like</string>
+    <string name="mall_icon_address">Address</string>
+    <string name="mall_icon_aftermarket">Customer support</string>
+    <string name="mall_icon_collect">Favorites</string>
+    <string name="mall_icon_commodity">Select</string>
+    <string name="mall_icon_coupon">Vouchers</string>
+    <string name="mall_icon_evaluate">Comments</string>
+    <string name="mall_icon_f_code">F code</string>
+    <string name="mall_icon_logistics">Delivery</string>
+    <string name="mall_icon_payment_orders">Unpaid orders</string>
+    <string name="mall_icon_search_orders">Order inquiry</string>
+    <string name="mall_icon_shopping_cart">Shopping cart</string>
+    <string name="mb">MB</string>
+    <string name="mb_s">MB/s</string>
+    <string name="media_select_items">Select items</string>
+    <string name="media_select_x_items">%d items selected</string>
+    <string name="media_type_images">Photos</string>
+    <string name="media_type_others">Other</string>
+    <string name="media_type_videos">Videos</string>
+    <string name="media_upload_none_selected">Files not selected</string>
+    <string name="menu_correct">Edit locations</string>
+    <string name="message_clear_all">Delete all messages?</string>
+    <string name="mi_key">Mi Key</string>
+    <string name="mi_key_title">Bluetooth Mi Key control</string>
+    <string name="midea_aircondition">Midea AC</string>
+    <string name="miio_before_firmware_upgrade_tip">Keep device connected</string>
+    <string name="miio_close">Exit</string>
+    <string name="miio_del_success">Removed</string>
+    <string name="miio_device_list_add_device">Add remote controls</string>
+    <string name="miio_device_list_add_device_fail">"Couldn't connect to device"</string>
+    <string name="miio_device_list_add_sub_device_title">Add remote controls</string>
+    <string name="miio_device_list_del_device_fail">"Couldn't remove"</string>
+    <string name="miio_device_list_del_device_fail_no_token">"Can't remove the device that hasn't been added"</string>
+    <string name="miio_device_list_none_avail_miio_device">No devices available</string>
+    <string name="miio_device_list_refreshing">Refreshing device list, try again later</string>
+    <string name="miio_device_list_select_main_device_title">Choose device</string>
+    <string name="miio_device_local_device_exception">An error occured</string>
+    <string name="miio_device_local_permission_denied">"You don't have access to local devices"</string>
+    <string name="miio_device_local_timeout">Local devices timeout</string>
+    <string name="miio_device_remote_offline">Remote device offline</string>
+    <string name="miio_device_remote_permission_denied">"You don't have remote access to local devices"</string>
+    <string name="miio_device_remote_timeout">Connection timeout</string>
+    <string name="miio_device_remove">Remove device</string>
+    <string name="miio_device_rename">Edit name</string>
+    <string name="miio_fetch_token_fail">"Couldn't get token"</string>
+    <string name="miio_firmware_upgrade">Firmware update</string>
+    <string name="miio_firmware_upgrade_fail">"Couldn't update"</string>
+    <string name="miio_firmware_upgrade_success">Updated</string>
+    <string name="miio_firmware_upgrading">Updating…</string>
+    <string name="miio_go_back_tips">Go back</string>
+    <string name="miio_ir_name">IR remote</string>
+    <string name="miio_market_user_center">Store</string>
+    <string name="miio_no_message">No messages</string>
+    <string name="miio_not_bind_device">Confirm connected device first</string>
+    <string name="miio_not_click_btn">"Haven't pressed the button"</string>
+    <string name="miio_read_ir_fail">"Couldn't read IR-code"</string>
+    <string name="miio_rename_illegal">Enter device name</string>
+    <string name="miio_save_db_fail">"Couldn't save data"</string>
+    <string name="miio_setting_about">About</string>
+    <string name="miio_setting_bind_detail">Connection details</string>
+    <string name="miio_setting_feedback">Feedback</string>
+    <string name="miio_setting_log">Location logs</string>
+    <string name="miio_setting_logout">Sign out</string>
+    <string name="miio_setting_message_center">Messaging</string>
+    <string name="miio_setting_share">Device sharing</string>
+    <string name="miio_setting_share_manager">Device sharing</string>
+    <string name="miio_setting_upgrade">Check for updates</string>
+    <string name="miio_setting_upgrade_checking">Checking…</string>
+    <string name="miio_start_firmware_upgrade_fail">"Couldn't get updates"</string>
+    <string name="miio_sub_device_key_not_available">"Haven't assigned yet"</string>
+    <string name="miio_sub_device_preview_record">Preview</string>
+    <string name="miio_sub_device_record">Record instructions</string>
+    <string name="miio_sub_device_record_click_start">Tap to start recording</string>
+    <string name="miio_sub_device_record_none_cmd">No instructions recorded</string>
+    <string name="miio_sub_device_remove">Remove device</string>
+    <string name="miio_sub_device_rename">Rename</string>
+    <string name="miio_sub_device_send_fail">"Couldn't send"</string>
+    <string name="miio_sub_device_send_success">Sent successfully</string>
+    <string name="miio_sub_device_start_record">Start recording</string>
+    <string name="miio_sub_device_stop_record">Stop recording</string>
+    <string name="miio_sub_device_study">Assign buttons</string>
+    <string name="miio_sub_device_study_cancel">Canceled</string>
+    <string name="miio_sub_device_study_complete">Complete</string>
+    <string name="miio_sub_device_study_fail">"Couldn't assign"</string>
+    <string name="miio_sub_device_study_start">Start</string>
+    <string name="miio_sub_device_study_start_fail">"Couldn't start assigning"</string>
+    <string name="miio_sub_device_study_stop">Stop</string>
+    <string name="miio_sub_device_study_success">Assigned successfully</string>
+    <string name="miio_sub_device_study_tips">Make sure the remote is poined at the IR sensor</string>
+    <string name="miio_sub_device_studying">Assigning…</string>
+    <string name="miio_sub_device_sync">Sync</string>
+    <string name="miio_sub_device_sync_fail">"Couldn't sync"</string>
+    <string name="miio_sub_device_sync_success">Synced successfully</string>
+    <string name="miio_sub_device_title_more">More</string>
+    <string name="miio_twingkle">Flashing</string>
+    <string name="miio_unknown">Device currently not supported</string>
+    <string name="miio_update_reboot">Updated successfully, rebooting…</string>
+    <string name="miio_update_tips">Updating, do not turn off your device. Wait until LED light stops flashing</string>
+    <string name="mikey_event_registerd">%1$s Mi Key events registered, Bluetooth busy</string>
+    <string name="mikey_not_set">Not set</string>
+    <string name="mikey_not_supported">Mi Key not supported</string>
+    <string name="mikey_reopen_tips">Resetting this function will disable Mi Key</string>
+    <string name="mikey_scene_desc">If %1$s, %2$s</string>
+    <string name="mile">mile</string>
+    <string name="minute">minute</string>
+    <string name="mitv_apk_background_downloading">Download</string>
+    <string name="mitv_apk_cancel_downloading">Cancel</string>
+    <string name="mitv_apk_downloading">Downloading</string>
+    <string name="mitv_apk_downloading_back_tips">Cancel download or download in the background?</string>
+    <string name="mitv_apk_is_downloading">Projection app downloading…</string>
+    <string name="mitv_app">Install app</string>
+    <string name="mitv_bind_device">Paired devices</string>
+    <string name="mitv_download_des">Watch videos, browse photos, and install apps on your Mi TV</string>
+    <string name="mitv_download_title">Projection app for Mi TV</string>
+    <string name="mitv_is_not_in_local">"Couldn't send instructions, make sure TV is on and connected to the same Wi-Fi network"</string>
+    <string name="mitv_local_device">Local</string>
+    <string name="mitv_login_account_box_info">You will be able to see the devices paired with Mi Account after you sign in</string>
+    <string name="mitv_login_account_captchacode">Enter verification code</string>
+    <string name="mitv_login_account_captchacode_error">"Code you've entered is incorrect"</string>
+    <string name="mitv_login_account_captchacode_error_get">"Couldn't get verification code"</string>
+    <string name="mitv_login_account_error_already_login">This Mi TV is already associated with an existing account</string>
+    <string name="mitv_login_account_error_decode">"Couldn't decrypt data"</string>
+    <string name="mitv_login_account_error_format">Invalid data format</string>
+    <string name="mitv_login_account_error_invalid_user">Invalid user</string>
+    <string name="mitv_login_account_error_passwd">"Couldn't sign in"</string>
+    <string name="mitv_login_account_error_server">Service access error</string>
+    <string name="mitv_login_account_passwd">Enter password</string>
+    <string name="mitv_login_account_title">Sign in with Mi Account: %1$s</string>
+    <string name="mitv_login_account_tv_info">You will be able to see the devices paired with Mi Account after you sign in</string>
+    <string name="mitv_login_account_vericode">Enter verification code</string>
+    <string name="mitv_movie">Watch videos</string>
+    <string name="mitv_not_bind_device">Devices</string>
+    <string name="mitv_offline_device">Offline</string>
+    <string name="mitv_play">Browse photos</string>
+    <string name="mitv_remote_device">Remote</string>
+    <string name="mitv_share_device">From shared device (%1$s)</string>
+    <string name="mitv_style">Change style</string>
+    <string name="mitv_style_black">Black</string>
+    <string name="mitv_style_white">White</string>
+    <string name="mitv_touch_info">Press and hold to adjust volume</string>
+    <string name="mitv_unbind_failed_notsupport">Current version of firmware does not support unpairing, update to the latest version</string>
+    <string name="model_latest">All firmwares are up-to-date</string>
+    <string name="model_rebooting">Rebooting…</string>
+    <string name="model_update_success">Updated</string>
+    <string name="model_updating">Updating…</string>
+    <string name="monday">Monday</string>
+    <string name="month">Month</string>
+    <string name="multi_graph_more">Total %d items</string>
+    <string name="my_ble">Mi Band</string>
+    <string name="my_home">Personal</string>
+    <string name="my_phone_ir_desc_count">%1$s devices</string>
+    <string name="my_phone_ir_desc_empty">None</string>
+    <string name="my_phone_ir_name">Mi Remote</string>
+    <string name="my_phone_name">Travel log</string>
+    <string name="network_disable">Network not available</string>
+    <string name="next_button">Next</string>
+    <string name="nick_name_empty">Emty</string>
+    <string name="nick_too_long">"Nickname can't exceed 20 characters"</string>
+    <string name="no_backname">No name</string>
+    <string name="no_client">Device not connected</string>
+    <string name="no_device"> Serial number: </string>
+    <string name="no_device_title">No devices to select, visit our store first</string>
+    <string name="no_invite">Not invited yet</string>
+    <string name="no_location_log">Travel log not set</string>
+    <string name="no_network">Network not available</string>
+    <string name="no_storage_card">SD card not found</string>
+    <string name="no_wifi_found">"Couldn't find Wi-Fi"</string>
+    <string name="none_plugin_installed">Plug-ins not installed</string>
+    <string name="not_admin">"You don't have permission to manage current router, sign in again."</string>
+    <string name="not_enough_space">Not enough space</string>
+    <string name="not_found_bracelet_app">Mi Fit not installed</string>
+    <string name="not_found_router_app">Mi Router app not installed</string>
+    <string name="not_found_tv_app">Install projection app?</string>
+    <string name="not_set">Not set</string>
+    <string name="not_setting_home_position">Set location for \"Home\" now?</string>
+    <string name="now_upgrade">Update now</string>
+    <string name="offline_device">Device offline</string>
+    <string name="ok_button">OK</string>
+    <string name="open">Turn on</string>
+    <string name="open_device_account_erro">"Mi Home accounts don't match, switch accounts?"</string>
+    <string name="open_device_bound_account_erro">Current device is paired with another account, switch accounts to continue</string>
+    <string name="open_device_logout_error">"Couldn't sign out"</string>
+    <string name="open_device_not_bound_alert">Device not paired, pair first and try again</string>
+    <string name="open_device_not_bound_erro">"Devices not paired, tap 'Confirm' to add"</string>
+    <string name="open_device_not_found_erro">Devices not found, refresh and try again</string>
+    <string name="open_device_not_found_erro_1">"Can't find this device"</string>
+    <string name="opening">Turning on…</string>
+    <string name="other">Other</string>
+    <string name="other_device">Other devices</string>
+    <string name="other_feedback">Other</string>
+    <string name="parent_device"> Parent device number: </string>
+    <string name="passport_binding_account_input_hint">Enter your email/phone number/Mi Account ID</string>
+    <string name="passport_binding_account_input_prompt">Enter your Mi account ID</string>
+    <string name="passport_binding_account_name">%1$s(%2$s)</string>
+    <string name="passport_binding_advantage_title">Things you can do if you add your Mi Account:</string>
+    <string name="passport_binding_bind_new_account">Sign in and add</string>
+    <string name="passport_binding_bind_new_account_link">Add another</string>
+    <string name="passport_binding_bind_system_account">Add this one</string>
+    <string name="passport_binding_found_system_account">Found Mi Account used in MIUI:</string>
+    <string name="passport_binding_loading">Adding account…</string>
+    <string name="passport_binding_no_empty_tip">required</string>
+    <string name="passport_binding_password_input_hint">Enter password</string>
+    <string name="passport_binding_title">Add Mi Account</string>
+    <string name="passport_login_retry_other_passport"><u>Use another account</u></string>
+    <string name="passport_login_retry_prompt">Keep using this Mi Account?</string>
+    <string name="passport_manager">Mi Account</string>
+    <string name="passport_prompt_login_fail">"Couldn't sign in with your Mi Account"</string>
+    <string name="password_incorrect">Password incorrect</string>
+    <string name="password_invalid">Password wrong</string>
+    <string name="password_must_not_empty">Password required</string>
+    <string name="percent_sign">%</string>
+    <string name="photo_lib_can_not_select_any_more">"Can't select more than %d items"</string>
+    <string name="photo_lib_must_select">"You haven't selected any photos"</string>
+    <string name="photo_lib_no_image">No photos</string>
+    <string name="photo_lib_no_image_2">You can take a photo now or select from Gallery</string>
+    <string name="photo_lib_select_lib">Gallery</string>
+    <string name="photo_lib_title">Selected %d items</string>
+    <string name="picker_day">day</string>
+    <string name="picker_hour">hrs</string>
+    <string name="picker_minite">min</string>
+    <string name="picker_month">month</string>
+    <string name="picker_year">year</string>
+    <string name="pictures_group_name_x_num_x" formatted="false">%s | %d items</string>
+    <string name="please_inpt_account">Enter account ID</string>
+    <string name="please_wait">Just a sec…</string>
+    <string name="plug_confirm">OK</string>
+    <string name="plug_confirm_abort">Cancel</string>
+    <string name="plug_device">Plug</string>
+    <string name="plug_device_closed">Plug off</string>
+    <string name="plug_device_closed_short">220V off</string>
+    <string name="plug_device_open">Plug on</string>
+    <string name="plug_device_open_short">220V on</string>
+    <string name="plug_dialog_confirm_abort">Discard changes?</string>
+    <string name="plug_known">OK</string>
+    <string name="plug_serach_no_device_blue">If blue light is steady or flashing, the plug is being used, reset it</string>
+    <string name="plug_serach_no_device_red">If red light is flashing, the plug is waiting to be connected</string>
+    <string name="plug_subtitle">Plugs %1$s, USB %2$s</string>
+    <string name="plug_temperature_alert">Plug is very hot, check the plug</string>
+    <string name="plug_temperature_alert_cause">"
+1.Power may have exceeded maximum limit (2200w)
+
+2. There may be rusty or loose parts inside the AC socket connected to Mi Plug 
+
+3.The plugs of the devices may be rusty
+
+4. Air temperature may be too high"</string>
+    <string name="plug_temperature_alert_title">Plug is very hot, check the plug</string>
+    <string name="plug_timer_add">Add timer</string>
+    <string name="plug_timer_after">After</string>
+    <string name="plug_timer_del">Delete timer</string>
+    <string name="plug_timer_delete">Delete</string>
+    <string name="plug_timer_everyday">Every day</string>
+    <string name="plug_timer_friday">Friday</string>
+    <string name="plug_timer_illegal">Start time and end time are the same, set again</string>
+    <string name="plug_timer_less_than_1min">Less than one minute</string>
+    <string name="plug_timer_load_failed">"Couldn't set timer"</string>
+    <string name="plug_timer_monday">Monday</string>
+    <string name="plug_timer_monday_to_friday">Monday to Friday</string>
+    <string name="plug_timer_no_set">Not set</string>
+    <string name="plug_timer_off">Turn off</string>
+    <string name="plug_timer_off_time">Turn off time</string>
+    <string name="plug_timer_on">Turn on</string>
+    <string name="plug_timer_on_period">On time</string>
+    <string name="plug_timer_on_time">Turn on time</string>
+    <string name="plug_timer_onetime">Once</string>
+    <string name="plug_timer_repeat">Repeat</string>
+    <string name="plug_timer_saturday">Saturday</string>
+    <string name="plug_timer_sef_define">Customize</string>
+    <string name="plug_timer_set">Set timer</string>
+    <string name="plug_timer_sunday">Sunday</string>
+    <string name="plug_timer_thursday">Thursday</string>
+    <string name="plug_timer_today">Today</string>
+    <string name="plug_timer_tomorrow">Tomorrow</string>
+    <string name="plug_timer_tuesday">Tuesday</string>
+    <string name="plug_timer_unset">Not set</string>
+    <string name="plug_timer_wednesday">Wednesday</string>
+    <string name="plug_timer_weekend">Weekend</string>
+    <string name="plug_timer_workday">Weekday</string>
+    <string name="plug_usb">USB</string>
+    <string name="plug_usb_closed">USB off</string>
+    <string name="plug_usb_open">USB on</string>
+    <string name="plugin">Plug-ins</string>
+    <string name="plugin_auto_update">Auto Update</string>
+    <string name="plugin_auto_update_detail">Automatically download new plugin</string>
+    <string name="plugin_download_fail">"Couldn't download"</string>
+    <string name="plugin_download_not_found">Plug-ins not found</string>
+    <string name="plugin_download_success">Downloaded</string>
+    <string name="plugin_downloading">Downloading</string>
+    <string name="plugin_install_fail">"Couldn't install"</string>
+    <string name="plugin_install_success">Installed</string>
+    <string name="plugin_installing">Installing</string>
+    <string name="plugin_not_installed_hint">Tap to install</string>
+    <string name="plugin_update_failure">"Couldn't update"</string>
+    <string name="plugin_update_immediately">Update now</string>
+    <string name="plugin_update_success">Updated</string>
+    <string name="preparing_card">Preparing SD card…</string>
+    <string name="prev_button">Back</string>
+    <string name="previous_button">Back</string>
+    <string name="processing">Working…</string>
+    <string name="proposal_feedback">Your suggestions</string>
+    <string name="publish_progress_message">Submitting…</string>
+    <string name="pull_down_refresh">Pull down to refresh</string>
+    <string name="pull_up_refresh">Pull up to refresh</string>
+    <string name="quit_application">Exit</string>
+    <string name="quit_hint">Exit now?</string>
+    <string name="reboot_router_rebooting_title">Restarting…</string>
+    <string name="refresh_device_list">Refresh</string>
+    <string name="refresh_list">Refresh</string>
+    <string name="refreshing">Loading…</string>
+    <string name="refreshing_no_point">Loading</string>
+    <string name="refreshing_retry">"Couldn't load, try again?"</string>
+    <string name="relation_to_me">Relationship</string>
+    <string name="release_to_refresh">Release to refresh</string>
+    <string name="remind">Reminder</string>
+    <string name="remote_control_aircon_congratulations">Paired successfully</string>
+    <string name="remote_control_aircon_congratulations_tips">"Some results don't match. If some buttons aren't working, try again"</string>
+    <string name="remote_control_aircon_mode">Mode</string>
+    <string name="remote_control_aircon_not_support">This model is currently not supported</string>
+    <string name="remote_control_aircon_temperature_add">Temperature+</string>
+    <string name="remote_control_aircon_temperature_minus">Temperature-</string>
+    <string name="remote_control_aircon_wind">Speed</string>
+    <string name="remote_control_av">AV</string>
+    <string name="remote_control_combined_key_empty">No commands recorded</string>
+    <string name="remote_control_combined_key_empty_preview">No commands recorded</string>
+    <string name="remote_control_combined_key_load_fail">"Coulgn't access combined command settings"</string>
+    <string name="remote_control_combined_key_preview">Preview</string>
+    <string name="remote_control_combined_key_save_fail">"Coulgn't save settings"</string>
+    <string name="remote_control_combined_key_start">Start recording</string>
+    <string name="remote_control_combined_key_stop">Stop recording</string>
+    <string name="remote_control_combined_key_title">Set combined command</string>
+    <string name="remote_control_curation_close">Turn off</string>
+    <string name="remote_control_curation_open">Turn on</string>
+    <string name="remote_control_curation_pause">Pause</string>
+    <string name="remote_control_devices">Controlled devices</string>
+    <string name="remote_control_down">Down</string>
+    <string name="remote_control_eight">8</string>
+    <string name="remote_control_fan_add">Boost speed</string>
+    <string name="remote_control_fan_minus">Slow down</string>
+    <string name="remote_control_fan_shake">Toggles</string>
+    <string name="remote_control_five">5</string>
+    <string name="remote_control_four">4</string>
+    <string name="remote_control_get_key_list">Accessing buttons…</string>
+    <string name="remote_control_get_key_list_fail">"Couldn't access buttons"</string>
+    <string name="remote_control_get_key_study">Waiting…</string>
+    <string name="remote_control_get_key_study_fail">"Couldn't assign"</string>
+    <string name="remote_control_get_key_study_success">Assigned successfully</string>
+    <string name="remote_control_get_subdevice_info">Getting device info…</string>
+    <string name="remote_control_get_subdevice_info_fail">"Couldn't get device info, try again"</string>
+    <string name="remote_control_home">Home</string>
+    <string name="remote_control_left">Left</string>
+    <string name="remote_control_menu">Menu</string>
+    <string name="remote_control_menus">Menu</string>
+    <string name="remote_control_ok">OK</string>
+    <string name="remote_control_one">1</string>
+    <string name="remote_control_pause">Pause</string>
+    <string name="remote_control_restudy_title">Assign buttons</string>
+    <string name="remote_control_return">Back</string>
+    <string name="remote_control_right">Right</string>
+    <string name="remote_control_seven">7</string>
+    <string name="remote_control_six">6</string>
+    <string name="remote_control_study_mode">Start</string>
+    <string name="remote_control_study_no_study">"Haven't assigned"</string>
+    <string name="remote_control_study_start">Continue</string>
+    <string name="remote_control_study_stop">Finish</string>
+    <string name="remote_control_subtraction_add">Volume+</string>
+    <string name="remote_control_subtraction_minus">Volume-</string>
+    <string name="remote_control_switch">Power</string>
+    <string name="remote_control_three">3</string>
+    <string name="remote_control_two">2</string>
+    <string name="remote_control_up">Up</string>
+    <string name="remote_key_switch">Power</string>
+    <string name="retry">Try again</string>
+    <string name="retrying">Working…</string>
+    <string name="review_arrive_time">Delivery time:</string>
+    <string name="review_list_empty">No products to comment</string>
+    <string name="review_sell_price">Price: ￥%s</string>
+    <string name="review_submit">Submit</string>
+    <string name="rom_upgrade_check">Check for updates</string>
+    <string name="rom_upgrade_new_version">New version available</string>
+    <string name="rom_upgrade_now">Update now</string>
+    <string name="rom_upgrade_title">System updates</string>
+    <string name="router_apk_is_downloading">Downloading app…</string>
+    <string name="router_bind_account_title">Enter Mi Router admin password to complete</string>
+    <string name="router_button_to_download">Open</string>
+    <string name="router_button_to_install">Install now</string>
+    <string name="router_current_net_speed">Current speed</string>
+    <string name="router_current_speed_format">Network speed: %1$s KB/s</string>
+    <string name="router_disk">Router storage</string>
+    <string name="router_disk_info">Available storage</string>
+    <string name="router_download_des">Manage your router from your phone</string>
+    <string name="router_download_progress">Downloading %1$d%%</string>
+    <string name="router_download_title">Mi Router app</string>
+    <string name="router_downloaded">Downloaded</string>
+    <string name="router_downloaded_info">Downloaded %1$d items</string>
+    <string name="router_downloading">Downloading</string>
+    <string name="router_downloading_info">Downloading %1$d items</string>
+    <string name="router_guide_tip1_desc">Detect network interference and see dangerous devices</string>
+    <string name="router_guide_tip1_title">"Don't like network interference?"</string>
+    <string name="router_guide_tip2_desc">Download Blu-ray quality moviesand watch offline</string>
+    <string name="router_guide_tip2_title">Video freezes?</string>
+    <string name="router_guide_tip3_desc">Optimize your network and boost speed</string>
+    <string name="router_guide_tip3_title">Internet connection too slow?</string>
+    <string name="router_guide_tip4_desc">Back up your photos and save storage space</string>
+    <string name="router_guide_tip4_title">Not enough storage?</string>
+    <string name="router_guide_title">Mi Router</string>
+    <string name="router_login_account_bind_error">"Couldn't add Mi Router"</string>
+    <string name="router_login_account_get_secret_error">"Couldn't get router info"</string>
+    <string name="router_login_account_passwd">Enter admin password</string>
+    <string name="router_login_account_passwd_error">Password incorrect</string>
+    <string name="router_network_speed">Network speed</string>
+    <string name="router_no_speed">No network connection</string>
+    <string name="router_plug">Plug-ins</string>
+    <string name="router_plug_info">%1$d plug-ins installed</string>
+    <string name="router_speed_high">Current speed is suitable for watching online videos</string>
+    <string name="router_speed_low">Current speed is suitable for browsing websites</string>
+    <string name="router_speed_middle">Current speed is suitable for online gaming</string>
+    <string name="router_speed_no">No network connection</string>
+    <string name="router_speed_no_info">"Couldn't get router info"</string>
+    <string name="router_test_info">Use Mi Router to connect to %s</string>
+    <string name="router_test_sub_info">Router name: %s</string>
+    <string name="router_test_switch">Switch network</string>
+    <string name="router_test_testing">Searching for Mi Router</string>
+    <string name="routing_feedback">Adding router</string>
+    <string name="running_time_complete">%1$dhr %2$dmin</string>
+    <string name="saturday">Saturday</string>
+    <string name="saving_image">Saving…</string>
+    <string name="scene_action_no_setting">Not set</string>
+    <string name="scene_add_condition">Step 1: Set starting conditions</string>
+    <string name="scene_add_condition_empty">"You haven't set any starting conditions"</string>
+    <string name="scene_add_task">Step 2: Add instructions</string>
+    <string name="scene_add_task_empty">You have not added any instructions</string>
+    <string name="scene_conflict_tip">"%1$d. This location conflicts with \"%2$s\" (if it needs to be created, delete or disable conflicting locations)
+"</string>
+    <string name="scene_default_keyname_1">Protect your home in a smart way</string>
+    <string name="scene_default_keyname_2">Turn on all Mi plugs</string>
+    <string name="scene_default_keyname_3">Turn off all Mi plugs</string>
+    <string name="scene_default_keyname_4">Mi Band will turn on plugs</string>
+    <string name="scene_default_keyname_5">Mi Band will tirn off the light</string>
+    <string name="scene_default_mikey_click">Click Mi Key</string>
+    <string name="scene_default_mikey_dbclick">Double click Mi Key</string>
+    <string name="scene_default_name_1">Home guard</string>
+    <string name="scene_default_name_2">Power on</string>
+    <string name="scene_default_name_3">Power off</string>
+    <string name="scene_default_name_4">Morning mode</string>
+    <string name="scene_default_name_5">Good night mode</string>
+    <string name="scene_doorring_repeat_tip">This location duplicates \"Doorbell\"</string>
+    <string name="scene_enable">Turn on</string>
+    <string name="scene_if">If</string>
+    <string name="scene_if_extra">Set a starting condition</string>
+    <string name="scene_manage">Location mode</string>
+    <string name="scene_modify_name_error">"Couldn't rename, try again"</string>
+    <string name="scene_recommend">Suggested location</string>
+    <string name="scene_repeat_tip">"%1$d. This location duplicates \"%2$s\"
+"</string>
+    <string name="scene_save">Save location</string>
+    <string name="scene_save1">Save</string>
+    <string name="scene_then">Then</string>
+    <string name="scene_then_extra">Add instructions</string>
+    <string name="search_new_device">Nearby devices found</string>
+    <string name="second">sec</string>
+    <string name="select_device_title">Choose devices to connect</string>
+    <string name="select_from_camera">Take photo</string>
+    <string name="select_local_picture">Choose from Gallery</string>
+    <string name="send_log">Send log file</string>
+    <string name="serach_no_device_blue">If blue light is stedy, the device is being used, you can reset it (learn how)</string>
+    <string name="serach_no_device_red">If red light is steady, the device is starting, wait a moment</string>
+    <string name="serach_no_device_title">New devices not found, check LED light on the device</string>
+    <string name="serach_no_device_yellow">If yellow light is flashing, you can add the device</string>
+    <string name="setting">Settings</string>
+    <string name="setting_detail_device">Connected: %1$s    Shared: %2$s    Other: %3$s</string>
+    <string name="setting_home_wifi">Set up home Wi-Fi</string>
+    <string name="setting_logout">Sign out</string>
+    <string name="setting_logout_message">Sign out now?</string>
+    <string name="setting_logout_waiting">Signing out…</string>
+    <string name="setting_menu_advanced_setting">Advanced settings</string>
+    <string name="setting_menu_feedback">Feedback</string>
+    <string name="setting_menu_logout">Sign out</string>
+    <string name="setting_menu_network_diagnosis">Network detection</string>
+    <string name="setting_menu_upgrade">Updates</string>
+    <string name="setting_reset">Reset</string>
+    <string name="setting_total_device">%d devices</string>
+    <string name="setting_unbind">Remove account</string>
+    <string name="setting_unbind_waiting">Removing…</string>
+    <string name="several_days_ago">%d days ago</string>
+    <string name="several_hours_ago">%d hours ago</string>
+    <string name="several_minutes_ago">%d minutes ago</string>
+    <string name="several_months_ago">%d months ago</string>
+    <string name="several_years_ago">%d years ago</string>
+    <string name="sex_female">Female</string>
+    <string name="sex_male">Male</string>
+    <string name="sh_confirm">OK</string>
+    <string name="sh_network_not_available">Network not available</string>
+    <string name="sh_share">Share</string>
+    <string name="sh_share_account_hint">Mi Account</string>
+    <string name="sh_share_fremax_request">Reached sharing limit, delete current users to share</string>
+    <string name="sh_share_frequent_request">Wait until recipient accepts</string>
+    <string name="sh_share_request_fail">"Couldn't send invitation"</string>
+    <string name="sh_share_request_success">Invitation sent</string>
+    <string name="sh_share_tile">Share %s</string>
+    <string name="sh_user_not_exist">"Couldn't find users"</string>
+    <string name="share_device_account_find">Share with account</string>
+    <string name="share_device_content_line1">Share %s</string>
+    <string name="share_device_content_line2">Share device with your friends</string>
+    <string name="share_device_family_share">Share with family</string>
+    <string name="share_device_title">Share devices with your family</string>
+    <string name="share_device_title_text">Find shared devices</string>
+    <string name="share_no_device">No shared devices</string>
+    <string name="share_no_user">Devices not shared with other users</string>
+    <string name="share_score_action_scores">Activity index: %1$d</string>
+    <string name="share_score_all_socres">Your smart index is %1$d</string>
+    <string name="share_score_safe_scores">Safety index: %1$d</string>
+    <string name="share_score_scence_scores">Overallndex: %1$d</string>
+    <string name="share_score_score">Smart indexes</string>
+    <string name="share_score_score_info">Share Mi Home indexes</string>
+    <string name="share_score_share_no_install">Recipient should install the app first</string>
+    <string name="share_score_win">Ahead of %1$d%% users</string>
+    <string name="shop_click_refresh"><u>Refresh</u></string>
+    <string name="single_click">Single tap</string>
+    <string name="smart_bulb">Smart bulb</string>
+    <string name="smart_bulb_gateway">Connected to doorbell</string>
+    <string name="smarthome_add_share">Share</string>
+    <string name="smarthome_aircon_temperature">%d°</string>
+    <string name="smarthome_aircon_temperature_default">--</string>
+    <string name="smarthome_bodysensor_airpurify_auto_onlinescene">Switch to automatic mode when movement is not detected</string>
+    <string name="smarthome_bodysensor_airpurify_auto_onlinescene_detail">Air Purifier will switch to automatic mode when the sensor detects noone is passing by</string>
+    <string name="smarthome_bodysensor_airpurify_off_onlinescene">Turn off Air Purifier after you leave</string>
+    <string name="smarthome_bodysensor_airpurify_off_onlinescene_detail">Air Purifier will be turned off after the sensor detects that everybody has left the room</string>
+    <string name="smarthome_bodysensor_airpurify_on_onlinescene">Turn on Air Purifier when movement is detected</string>
+    <string name="smarthome_bodysensor_airpurify_on_onlinescene_detail">Air Purifier will be turned on when the sensor detects movement</string>
+    <string name="smarthome_bodysensor_airpurify_weak_onlinescene">Switch to silent mode when passing movement is detected</string>
+    <string name="smarthome_bodysensor_airpurify_weak_onlinescene_detail">Air Purifier will switch to silent mode when the sensor detects someone is passing by</string>
+    <string name="smarthome_bodysensor_gatewaysound_onlinescene">Ring the doorbell when movement is detected</string>
+    <string name="smarthome_bodysensor_gatewaysound_onlinescene_detail">The doorbell will ring when the sensor detects movement</string>
+    <string name="smarthome_bodysensor_plug220_off_onlinescene">Turn off Plug after you leave</string>
+    <string name="smarthome_bodysensor_plug220_off_onlinescene_detail">Plug will be turned off after the sensor detects that everybody has left the room</string>
+    <string name="smarthome_bodysensor_plug220_on_onlinescene">Turn on Plug when movement is detected</string>
+    <string name="smarthome_bodysensor_plug220_on_onlinescene_detail">Plug will be turned on when the sensor detects movement</string>
+    <string name="smarthome_bodysensor_plugusb_off_onlinescene">Turn off USB socket after you leave</string>
+    <string name="smarthome_bodysensor_plugusb_off_onlinescene_detail">Plug will be turned off after the sensor detects that everybody has left the room</string>
+    <string name="smarthome_bodysensor_plugusb_on_onlinescene">Turn on USB socket when movement is detected</string>
+    <string name="smarthome_bodysensor_plugusb_on_onlinescene_detail">Plug will be turned on when the sensor detects movement</string>
+    <string name="smarthome_bodysensor_smartlight_off_onlinescene">Turn off Bulb after you leave</string>
+    <string name="smarthome_bodysensor_smartlight_off_onlinescene_detail">Bulb will be turned off after the sensor detects that everybody has left the room</string>
+    <string name="smarthome_bodysensor_smartlight_on_onlinescene">Turn on Bulb when movement is detected</string>
+    <string name="smarthome_bodysensor_smartlight_on_onlinescene_detail">Bulb will be turned on when the sensor detects movement</string>
+    <string name="smarthome_cancel_timespan">Cancel</string>
+    <string name="smarthome_create_scene">Create location</string>
+    <string name="smarthome_delete_timespan">Delete timer</string>
+    <string name="smarthome_device__add_subdevice_error">"Couldn't add device, try again"</string>
+    <string name="smarthome_device__add_subdevice_succ">Device added</string>
+    <string name="smarthome_device__confirm_remove">Remove device now?</string>
+    <string name="smarthome_device_add_to_launcher">Add Home screen shortcut</string>
+    <string name="smarthome_device_appletv">Apple TV</string>
+    <string name="smarthome_device_auth">Share with family</string>
+    <string name="smarthome_device_auth_friend">Share with friends</string>
+    <string name="smarthome_device_auth_release">Disconnect</string>
+    <string name="smarthome_device_common_aircon">General A/C</string>
+    <string name="smarthome_device_common_curation">Electric curtains</string>
+    <string name="smarthome_device_common_device">General Device</string>
+    <string name="smarthome_device_common_fan">Electric fan</string>
+    <string name="smarthome_device_common_smarttv">General Smart TV</string>
+    <string name="smarthome_device_common_tv">General TV</string>
+    <string name="smarthome_device_delete_confirm">"Are you sure you want to delete %s's permissions?"</string>
+    <string name="smarthome_device_delete_fail">"Couldn't delete"</string>
+    <string name="smarthome_device_delete_launcher">Delete Home screen shortcut</string>
+    <string name="smarthome_device_delete_share">Delete</string>
+    <string name="smarthome_device_delete_success">Deleted</string>
+    <string name="smarthome_device_device">Share</string>
+    <string name="smarthome_device_get_subdevice_error">"Couldn't find device, try again"</string>
+    <string name="smarthome_device_hint">Add remote controls</string>
+    <string name="smarthome_device_launcher">Add Home screen shortcut</string>
+    <string name="smarthome_device_mibox1">Mi Box 1</string>
+    <string name="smarthome_device_mibox1s">Mi Box 1S</string>
+    <string name="smarthome_device_mitv">Mi TV</string>
+    <string name="smarthome_device_remove">Remove device</string>
+    <string name="smarthome_device_remove_error">"Couldn't remove device, try again later"</string>
+    <string name="smarthome_device_remove_succ">Device removed</string>
+    <string name="smarthome_device_rename">Rename</string>
+    <string name="smarthome_device_request_auth">Manage</string>
+    <string name="smarthome_device_request_unauth">"Don't manage"</string>
+    <string name="smarthome_device_set_camera_bg">Set camera background</string>
+    <string name="smarthome_device_share">Share</string>
+    <string name="smarthome_device_study">Assign buttons</string>
+    <string name="smarthome_device_upgrade">Firmware updates</string>
+    <string name="smarthome_device_upgrade_new">Firmware updates (new)</string>
+    <string name="smarthome_device_user_detail">Invite to manage</string>
+    <string name="smarthome_disable_condition">"Can't add tasks"</string>
+    <string name="smarthome_edit_scene">Edit location</string>
+    <string name="smarthome_has_shared_to_user">Shared with %1$s</string>
+    <string name="smarthome_has_shared_to_user_more">Shared with %1$s and %2$d people</string>
+    <string name="smarthome_input_xiaomi_account">Enter Mi Account ID</string>
+    <string name="smarthome_lock_router_device">Devices</string>
+    <string name="smarthome_lock_router_download">Download</string>
+    <string name="smarthome_magnet_airpurify_on_off_onlinescene">Open the window to turn off Air Purifier</string>
+    <string name="smarthome_magnet_airpurify_on_off_onlinescene_detail">Door and window sensor will turn off Air Purifier when it detects that the window is open</string>
+    <string name="smarthome_magnet_gatewaysound_onlinescene">Ring the doorbell when the door is open</string>
+    <string name="smarthome_magnet_gatewaysound_onlinescene_detail">When the door and window sensor detects that the door is open, the doorbell will ring</string>
+    <string name="smarthome_modify_timespan">Edit timer</string>
+    <string name="smarthome_no_device">No devices to select, visit our store first</string>
+    <string name="smarthome_no_localnetwork">Remote upload not supported</string>
+    <string name="smarthome_not_shared">Not shared</string>
+    <string name="smarthome_play_video">Play movies</string>
+    <string name="smarthome_record_video_for_play">Record a video</string>
+    <string name="smarthome_remote_mibo1_home">Home</string>
+    <string name="smarthome_remote_mibo1_menu">Menu</string>
+    <string name="smarthome_remote_mibo1_return">Back</string>
+    <string name="smarthome_scene">Location Mode</string>
+    <string name="smarthome_scene_24_hour">24 hours</string>
+    <string name="smarthome_scene_add_condition">Add conditions</string>
+    <string name="smarthome_scene_add_short_cut_success">Shortcut added</string>
+    <string name="smarthome_scene_add_start_condition">Add conditions first</string>
+    <string name="smarthome_scene_add_task">Add tasks</string>
+    <string name="smarthome_scene_air_condition_close_dehumidifier">Turn off dehumidifier</string>
+    <string name="smarthome_scene_air_condition_decre_degree">Temp-</string>
+    <string name="smarthome_scene_air_condition_incre_degree">Temp+</string>
+    <string name="smarthome_scene_air_condition_off">Turn off A/C</string>
+    <string name="smarthome_scene_air_condition_on">Turn on A/C</string>
+    <string name="smarthome_scene_air_condition_on_off">A/C On/Off</string>
+    <string name="smarthome_scene_air_condition_open_dehumidifier">Turn on dehumidifier</string>
+    <string name="smarthome_scene_air_condition_sleep_off">Turn off sleep mode</string>
+    <string name="smarthome_scene_air_condition_sleep_on">Turn on sleep mode</string>
+    <string name="smarthome_scene_airpurifier_aqi_100_GT">PM2.5 higher than 100</string>
+    <string name="smarthome_scene_airpurifier_aqi_100_LT">PM2.5 lower than 100</string>
+    <string name="smarthome_scene_airpurifier_aqi_200_GT">PM2.5 higher than 200</string>
+    <string name="smarthome_scene_airpurifier_aqi_200_LT">PM2.5 lower than 200</string>
+    <string name="smarthome_scene_airpurifier_aqi_300_GT">PM2.5 higher than 300</string>
+    <string name="smarthome_scene_airpurifier_aqi_300_LT">PM2.5 lower than 300</string>
+    <string name="smarthome_scene_airpurifier_aqi_50_GT">PM2.5 higher than 50</string>
+    <string name="smarthome_scene_airpurifier_aqi_50_LT">PM2.5 lower than 50</string>
+    <string name="smarthome_scene_airpurify_auto">Automatic mode</string>
+    <string name="smarthome_scene_airpurify_off">Turn off</string>
+    <string name="smarthome_scene_airpurify_on">Turn on</string>
+    <string name="smarthome_scene_airpurify_on_off">On/Off</string>
+    <string name="smarthome_scene_airpurify_strong">Active mode</string>
+    <string name="smarthome_scene_airpurify_weak">Silent mode</string>
+    <string name="smarthome_scene_all_device_offline">Selected devices are offline</string>
+    <string name="smarthome_scene_auto">Auto start</string>
+    <string name="smarthome_scene_bulb">Bulb On/Off</string>
+    <string name="smarthome_scene_bulb_off">Turn off Bulb</string>
+    <string name="smarthome_scene_bulb_on">Turn on Bulb</string>
+    <string name="smarthome_scene_camera_condition">Camera alert</string>
+    <string name="smarthome_scene_changing_start_type">Start mode</string>
+    <string name="smarthome_scene_changing_start_type_error">"Couldn't set up, try again"</string>
+    <string name="smarthome_scene_click_start">Tap to start</string>
+    <string name="smarthome_scene_client_offline">Device offline</string>
+    <string name="smarthome_scene_close">Turn off</string>
+    <string name="smarthome_scene_close_device">Turn off</string>
+    <string name="smarthome_scene_collection">Movie collections</string>
+    <string name="smarthome_scene_conflict">Location conflicts</string>
+    <string name="smarthome_scene_create">Create location</string>
+    <string name="smarthome_scene_custom">Customize</string>
+    <string name="smarthome_scene_delete_fail">"Couldn't delete, try again"</string>
+    <string name="smarthome_scene_delete_succ">Settings deleted</string>
+    <string name="smarthome_scene_detail">Details</string>
+    <string name="smarthome_scene_device_offline_title">Required devices offline</string>
+    <string name="smarthome_scene_execute">Turn on</string>
+    <string name="smarthome_scene_gateway_arming_off">Turn off alert mode</string>
+    <string name="smarthome_scene_gateway_arming_on">Turn on alert mode</string>
+    <string name="smarthome_scene_gateway_night_light">Night light On/Off</string>
+    <string name="smarthome_scene_gateway_night_light_off">Turn off night light</string>
+    <string name="smarthome_scene_gateway_night_light_on">Turn on night light</string>
+    <string name="smarthome_scene_gateway_ring_on">Turn on doorbell</string>
+    <string name="smarthome_scene_get_fail">"Couldn't get info, try again"</string>
+    <string name="smarthome_scene_get_scene_status_error">"Couldn't get info, try again"</string>
+    <string name="smarthome_scene_geteway_arming">Alert mode On/Off</string>
+    <string name="smarthome_scene_helper">Location mode</string>
+    <string name="smarthome_scene_history">Recently played movies</string>
+    <string name="smarthome_scene_less_than_1_minute">One minute</string>
+    <string name="smarthome_scene_null">Location is blank</string>
+    <string name="smarthome_scene_off">Off</string>
+    <string name="smarthome_scene_offline">Off</string>
+    <string name="smarthome_scene_open">Turn on</string>
+    <string name="smarthome_scene_open_close">Press power key</string>
+    <string name="smarthome_scene_open_device">Turn on</string>
+    <string name="smarthome_scene_outline">Offline</string>
+    <string name="smarthome_scene_play_url">Select movie</string>
+    <string name="smarthome_scene_plug_220">On/Off</string>
+    <string name="smarthome_scene_plug_220_off">Turn off</string>
+    <string name="smarthome_scene_plug_220_on">Turn on</string>
+    <string name="smarthome_scene_plug_usb">USB On/Off</string>
+    <string name="smarthome_scene_plug_usb_off">Turn off USB</string>
+    <string name="smarthome_scene_plug_usb_on">Turn on USB</string>
+    <string name="smarthome_scene_push_action">Send notifications to device</string>
+    <string name="smarthome_scene_quest_ok">OK</string>
+    <string name="smarthome_scene_quit">Changes will be lost, sure you want to exit?</string>
+    <string name="smarthome_scene_radio">Internet radio</string>
+    <string name="smarthome_scene_record_actions">Recording instructions</string>
+    <string name="smarthome_scene_router_pause_all_download_mission">All paused</string>
+    <string name="smarthome_scene_router_resume_all_download_mission">Start all</string>
+    <string name="smarthome_scene_saving_scene">Saving location</string>
+    <string name="smarthome_scene_set_fail_at_least_0">Choose at least one device</string>
+    <string name="smarthome_scene_set_name">Name</string>
+    <string name="smarthome_scene_set_succ">"Couldn't create location, try again"</string>
+    <string name="smarthome_scene_set_time">Start time</string>
+    <string name="smarthome_scene_seven_new">New movies (last 7 days)</string>
+    <string name="smarthome_scene_some_device_offline">Some of the selected devices are offline</string>
+    <string name="smarthome_scene_start">Turn on Location mode</string>
+    <string name="smarthome_scene_start_click">Tap to turn on</string>
+    <string name="smarthome_scene_start_click_setting">Set up</string>
+    <string name="smarthome_scene_start_complete">Operation complete</string>
+    <string name="smarthome_scene_start_condition">Conditions</string>
+    <string name="smarthome_scene_start_error">"Couldn't complete operation, try again"</string>
+    <string name="smarthome_scene_start_gohome">Connect device</string>
+    <string name="smarthome_scene_start_leavehome">Disconnect device</string>
+    <string name="smarthome_scene_start_timer">Timer</string>
+    <string name="smarthome_scene_start_when">Turn on later</string>
+    <string name="smarthome_scene_stop_scene">Stop task</string>
+    <string name="smarthome_scene_stop_scene_error">"Couldn't stop, try again"</string>
+    <string name="smarthome_scene_timer_day">Every day</string>
+    <string name="smarthome_scene_timer_everyday">Every day</string>
+    <string name="smarthome_scene_timer_once">Once</string>
+    <string name="smarthome_scene_timer_repeat">Repeat</string>
+    <string name="smarthome_scene_timer_title">Set alarm</string>
+    <string name="smarthome_scene_timer_workday">Weekday</string>
+    <string name="smarthome_scene_toggle">On/Off</string>
+    <string name="smarthome_scene_undefine">"Don't set"</string>
+    <string name="smarthome_scene_update_fail">"Couldn't update, try again"</string>
+    <string name="smarthome_scene_update_succ">Settings updated</string>
+    <string name="smarthome_scene_updating_scene">Updating Location mode settings</string>
+    <string name="smarthome_scene_wan_disconnect_processing">Working…</string>
+    <string name="smarthome_score">Mi Home index</string>
+    <string name="smarthome_see_now">Visit</string>
+    <string name="smarthome_select_route_video_for_play">Play videos from router</string>
+    <string name="smarthome_sence_rename">Rename location</string>
+    <string name="smarthome_setting_first">Select default location first</string>
+    <string name="smarthome_share_accept">Agree</string>
+    <string name="smarthome_share_accepted">Agreed</string>
+    <string name="smarthome_share_expired">Expired</string>
+    <string name="smarthome_share_reject">Decline</string>
+    <string name="smarthome_share_rejected">Declined</string>
+    <string name="smarthome_share_request_title">%1$s shared with you</string>
+    <string name="smarthome_shared_time_format">Shared dd/MM/yyyy</string>
+    <string name="smarthome_smart_liucheng">Location mode</string>
+    <string name="smarthome_span_error">Select at least one day</string>
+    <string name="smarthome_switch_status_get_failed">"Couldn't get Mi Plug status"</string>
+    <string name="smarthome_switch_status_set_failed">"Couldn't set Mi Plug status"</string>
+    <string name="smarthome_switch_status_setting">Set Mi Plug status</string>
+    <string name="smarthome_switchsensor_airpurify_on_off_onlinescene">Air Purifier On/Off</string>
+    <string name="smarthome_switchsensor_airpurify_on_off_onlinescene_detail">Turn Air Purifier on and off by pressing wireless switch</string>
+    <string name="smarthome_switchsensor_airpurify_weak_onlinescene">Use wireless switch to change modes on Air Purifier</string>
+    <string name="smarthome_switchsensor_airpurify_weak_onlinescene_detail">Turn on silent mode on by pressing wireless switch</string>
+    <string name="smarthome_switchsensor_comehome_onlinescene">Back home mode</string>
+    <string name="smarthome_switchsensor_gatewayarming_on_off_onlinescene">Alert mode On/Off</string>
+    <string name="smarthome_switchsensor_gatewayarming_on_off_onlinescene_detail">Turn alert mode on and off by pressing wireless switch</string>
+    <string name="smarthome_switchsensor_gatewaylight_on_off_onlinescene">Night light On/Off</string>
+    <string name="smarthome_switchsensor_gatewaylight_on_off_onlinescene_detail">Turn night light on and off by pressing wireless switch</string>
+    <string name="smarthome_switchsensor_leavehome_onlinescene">Away mode</string>
+    <string name="smarthome_switchsensor_plug220_on_off_onlinescene">Plug On/Off</string>
+    <string name="smarthome_switchsensor_plug220_on_off_onlinescene_detail">Turn plug on and off by pressing wireless switch</string>
+    <string name="smarthome_switchsensor_plugusb_on_off_onlinescene">USB socket On/Off</string>
+    <string name="smarthome_switchsensor_plugusb_on_off_onlinescene_detail">Turn USB socket on and off by pressing wireless switch</string>
+    <string name="smarthome_switchsensor_smartlight_onlinescene">Smart Bulb On/Off</string>
+    <string name="smarthome_switchsensor_smartlight_onlinescene_detail">Turn Smart Bulb on and off by pressing wireless switch</string>
+    <string name="smarthome_switchsensor_yeelight_onlinescene">Yeelight On/Off</string>
+    <string name="smarthome_switchsensor_yeelight_onlinescene_detail">Turn Yeelight on and off by pressing wireless switch</string>
+    <string name="smarthome_time_hint">%1$d:%2$d</string>
+    <string name="smarthome_timespan_text">Repeat</string>
+    <string name="smarthome_to_user_status_accept">Accepted</string>
+    <string name="smarthome_to_user_status_reject">Declined</string>
+    <string name="smarthome_to_user_status_waiting">Waiting to accept</string>
+    <string name="smarthome_unbind_camera_tips">"After unpairing the camera you'll need to reset it before pairing again. Sure you want to unpair?"</string>
+    <string name="smarthome_unbind_tips">Sure you want to disconnect?</string>
+    <string name="smarthome_unbinding">Disconnecting…</string>
+    <string name="smarthome_unbinding_info">Reset before using again, tap here to learn how to reset</string>
+    <string name="smarthome_unbinding_title">Description</string>
+    <string name="smarthome_upload_video_for_play">Upload from phone</string>
+    <string name="some_device_bind_error">"Couldn't talk to several devices, make sure the devices aren't managed by other accounts"</string>
+    <string name="splash_copy_right">Copyright 2014-2015 ©Mi Home</string>
+    <string name="splash_mi_home">Mi Home</string>
+    <string name="splash_promotion_jump">Skip</string>
+    <string name="start_upload_media_files">Start</string>
+    <string name="status_error_cable_not_plugin_body">Check your Internet connection</string>
+    <string name="storage_feedback">Router storage</string>
+    <string name="sunday">Sunday</string>
+    <string name="switch_control_power_description">Real-time power</string>
+    <string name="switch_control_power_unit">Watt</string>
+    <string name="switch_wifi">Network settings</string>
+    <string name="tab_title_app_update">App</string>
+    <string name="tab_title_model_update">Firmware</string>
+    <string name="tab_title_plugin_update">Plug-ins</string>
+    <string name="terminal_feedback">Device</string>
+    <string name="ths_feed">Your feedback is vital for us</string>
+    <string name="thursday">Thursday</string>
+    <string name="timer_title">Timers</string>
+    <string name="title_person_info">Personal info</string>
+    <string name="toast_lock_switch_failed">"Couldn't complete operation, check network connection"</string>
+    <string name="try_barcode_connection">Use QR code</string>
+    <string name="try_barcode_info">QR code setup is currently supported in the night vision version only. The latest version of firmware is required.</string>
+    <string name="try_barcode_ok">Continue</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="unauthoried_tip">Invalid account, sign in again</string>
+    <string name="unknown_os">Unknown version</string>
+    <string name="unsupported_intent">App not found</string>
+    <string name="update_all">Update all</string>
+    <string name="update_failed_not_login">Sign in with Mi account and try again</string>
+    <string name="update_failed_retry">"Couldn't load updates, tap to retry"</string>
+    <string name="update_failed_timeout">Check if router is connected to the internet and try again</string>
+    <string name="update_no_device">No devices to update</string>
+    <string name="update_now">Update now</string>
+    <string name="update_to_version">Update available:</string>
+    <string name="upgrade_check_fail">"Couldn't get update info"</string>
+    <string name="upgrade_has_update">Update available</string>
+    <string name="upgrade_has_update_title">Updating…</string>
+    <string name="upgrade_new_version">Firmware updates available</string>
+    <string name="upgrade_new_version_cancel">Cancel</string>
+    <string name="upgrade_new_version_hint">New version avaulable</string>
+    <string name="upgrade_new_version_upgrade">Update now</string>
+    <string name="upgrade_no_new_version_hint">Current version</string>
+    <string name="upgrade_pkg_downloaded_title_smarthome">Updating…</string>
+    <string name="upgrade_pkg_downloading_title2_smarthome">Updates available, downloading…</string>
+    <string name="upgrade_pkg_downloading_title_smarthome">Downloading updates</string>
+    <string name="upgrading_error">"Couldn't update, check network connection"</string>
+    <string name="upload_type">Upload file type</string>
+    <string name="uploading_head_icon">Uploading profile pic…</string>
+    <string name="uploading_log_error">"Couldn't upload log, try again"</string>
+    <string name="uploading_nick_name">Changing nickname…</string>
+    <string name="use_barcode_heard">Heard prompt</string>
+    <string name="use_barcode_heard_connecting">Heard \"Connecting, please wait\" prompt?</string>
+    <string name="useable_space">Router storage</string>
+    <string name="user_license">"Important notice
+ Before using Xiaomi Smart Home series products (hereinafter referred to as \"the products\"), please read carefully all the rights and restrictions in the User License Agreement (hereinafter referred to as \"this agreement\").
+ 
+ Xiaomi Communication Technology co., LTD. (hereinafter referred to as \"Xiaomi\" or \"we\") will always respect and strictly protect the legitimate rights and interests of our users when using this product (including user privacy, user data, etc.)and protect them from any infringement.
+ 
+ This product includes but is not limited to Xiaomi Smart Home software and related hardware which are all developed by Xiaomi.The related intellectual property rights (including all copyright, patent rights and trademark rights, etc.) in this product all belong to Xiaomi.
+ 
+ This agreement (including the privacy policy) is the final, complete and exclusive agreement related to the products (including natural persons, legal persons or other organizations, hereinafter referred to as the \"user\" or \"you\" who have obtained the products through legal means).In addition, this agreement will supersede the discussions and agreements among the above-mentioned relevant parties.
+ 
+ This agreement is legally binding to product users. You therefore fully agree with the terms of this agreement.New users of this product will be deemed as having accepted this agreement.Please read carefully the terms of this agreement, including the clauses that exempt and limit the responsibility of Xiaomi, and the terms that restrict the rights of the users (minors must be accompanied by a parent or guardian when reading the agreement). If you cannot accept all the terms of this agreement, please do not start using this product.(if you have purchased the hardware products, but do not accept all the terms of this agreement, then please refer to http://www.mi.com for the return policy of part of the hardware products)
+ 
+ 1. Use
+ 1.1 Account
+ The user may use the products without creating an account.If you wish to use more functions of the product, you need to register for a Xiaomi account and log on to register webpage
+ Please provide relevant personal information.You must promise and guarantee that:
+ 1.1.1 All the registration information you submit must be truthful and accurate;
+ 1.1.2 Your behavior when using this product must be legal;
+ 1.1.3 You may use the account at any time to terminate your account in accordance with the Xiaomi account's condition's of use.
+ According to the provisions of article 5 of this agreement, your account will be retained or terminated.You must promise to keep your login information confidential and others may not access or use the information. In addition, you will be responsible for all your actions when using this account.You must inform us of any illegal behaviour, unauthorized use or suspected unauthorized behavior.This product will not be held liable for any loss caused by your failure to comply with the above requirements.
+ 1.2 Internet acceleration and troubleshooting service.
+ In some scenarios while being used, the product will test network access after your permission.This is designed to help you speed up the network and implement troubleshooting services when necessary.The test was performed by the software program. There is no artificial monitoring. Just use the relevant software program to match and guide you to open the corresponding third-party content or page.We promise to keep the details regarding your use of this product confidential.
+ 
+ 2. End user protocol
+ 2.1 Permission
+ According to the provisions of this agreement, this product will grant you the following nontransferable, non-exclusive licenses:
+ 2.1.1 The right to use this product;
+ 2.1.2 The right to download, install and use this product on all your network communication equipment, computer equipment and mobile communication devices.
+ 2.2 Restrictive clauses
+ You will be subject to the following restrictions of this agreement:
+ 2.2.1 You should not use this product for selling, leasing, transferring, distribution, or other commercial purposes;
+ 2.2.2 Unless prohibited by law from such restrictions, you may not modify, translate, adapt, merge, utilize, dismantle, reconstruct, reverse compile or reverse engineer any part of this product or derivatives.
+ 2.2.3 You may not use the product for creating similar or competitive services;
+ 2.2.4 Unless explicitly ruled by law, you may not manufacture, copy, distribute, sell, download, or display the product or any part of this product.
+ 2.2.5 You may not remove or destroy any copyright statement or ownership tag contained in this product.
+ 2.3 Ownership rights
+ 2.3.1 Xiaomi will allow you to use and download this product.
+ 2.3.2 Xiaomi (and its \"authorized person\", if any) owns all the relevant intellectual property rights of this product.
+ 
+ 2.4 Fee
+ You must pay for the cost of the product, personal Internet access or a third party communications fee, information costs and other related expenses (including but not limited to telecommunications or mobile communications provider). In terms of telecommunications value-added services, we recommend that you confirm the relevant costs with a value-added service provider.
+ 2.5 Any updates or future versions of this product, and any updates or other changes will be subject to the provisions of this agreement.
+ 
+ 3. User Content
+ 3.1 User Content
+ 3.1.1 User content refers to the content created when downloading, publishing, or using this product in other ways (for example: your information, pictures, music, or other content).
+ 3.1.2 You are the only person in charge of your content. You will bear the risk of you and any third party being identified as a result of user information disclosure.
+ 3.1.3 You have agreed that your user content is limited by article 4.
+ 
+ 3.2 Feedback
+ 3.2.1 The suggestions you offered Xiaomi (also referred to as \"feedback\") shall be deemed as a transfer of all rights of the feedback and you agree that Xiaomi has the right to use this feedback or any related information in a reasonable manner.We will treat this information as non-confidential and non-proprietary;
+ 3.2.2 You have agreed to Xiaomi that you will not offer any information that will be considered as confidential and proprietary.
+ 3.3 We reserve the rights of users to share (but not be obliged to share) content based on our judgement
+ Whether we inform you or not, we have the right to delete the content shared by our users at any time and for any reason.According to article 5, we have the right to retain or terminate your account.
+ 
+ 4. Limitation of rights
+ 4.1 You have agreed to use this related services of this product. During the process, you will be held fully liable for the risks incurred by the following actions:
+ 4.1.1 Basic principles set by the constitution;
+ 4.1.2 Jepoardizing state security, divulging state secrets, subverting state power and undermining national unity;
+ 4.1.3 Causing damage to the nation's honor and interests；
+ 4.1.4 Inciting ethnic hatred, ethnic discrimination and undermining national unity;
+ 4.1.5 Undermining the country's religious policy, promoting cults and feudal superstition;
+ 4.1.6 Spreading rumors, disturbing social order and undermining social stability;
+ 4.1.7 Promoting obscenities, pornography, gambling, violence, murder, terrorism or abetting crime;
+ 4.1.8 Insulting or slandering others, or infringing upon the lawful rights and interests of others;
+ 4.1.9 Storing other content that is prohibited by laws and administrative rules and regulations.
+ 4.2 You have agreed to refrain from carrying out the following actions:
+ 4.2.1 Release or share computer viruses, worms, malicious code, vandalism, or software that deliberately destroys or changes the computer system's software or data.
+ 4.2.2 Collecting the information or data of users without authorization such as E-mail addresses, etc;
+ 4.2.3 Using this product maliciously in an automated way with the aim of putting an excessive burden on the server or interfering with or damaging the web server and network links in other ways;
+ 4.2.4 Attempting to access the product server data or communication when unauthorized;
+ 4.2.5 Interfering or undermining other users when using the product.
+ 
+ 5. Modification and termination
+ 5.1 Modification
+ 5.1.1 Changes allowed for this agreement.If there is any material change in this agreement, we will inform you via email or via the product's official website (http://home.mi.com).If you continue using this product after the change notice, it will be considered that you have understood the change and agree to accept the related terms.
+ 5.1.2 Xiaomi reserves the right to modify, reserve or close any service at any time without notice.
+ 5.1.3 You have agreed that Xiaomi will not be held liable for you or any third parties for the modification, retention, or closure of this product.
+ 5.2 Termination
+ 5.2.1 This agreement takes effect from the date of your acceptance, and will remain effective until the termination of this agreement;
+ 5.2.2 Despite foregoing regulations, if you use this product before you accept the agreement, the agreement will take effect from the moment you use the product, unless it terminates according to the agreement. 
+ 5.2.3 We may, according to the provisions of the law, revoke your right to use this product or your website account rights. Whether we inform you or not, we may terminate this agreement at any time for any reason, including if we are led to believe with all good intentions that you violated the policies of use or other provisions of this agreement;
+ 5.2.4 Without being subject to the revisions of the preceding paragraph, if the user has infringed the copyright of the third party or the notice from the legal agent of the copyright owners, Xiaomi reserves the right to terminate this agreement;
+ 5.2.5 Once this agreement has been terminated, your user rights of this product will be terminated.Please be aware that the termination means your user content will be deleted from our activity database. Xiaomi will not be held liable for the termination of this agreement including the termination and removal of your user account.
+ 
+ 
+ 6. Third parties
+ 6.1 You already acknowledge or agree that part of our service has been acquired from third party technical support.
+ You are already aware that this agreement is between you and Xiaomi, rather than with a third party. Xiaomi is the only person in charge of the content, maintenance, support services, guarantee and lawsuits generated by the product. You have agreed to comply with the agreement and authorize this product to restrict your use of the product's services.
+ 6.2 Third party information and services
+ 6.2.1 This product contains part of the third party's information and services. Xiaomi does not control and is not responsible for the information and services of the third party.
+ 6.2.2 Xiaomi provides such information and services for your convenience or for the requirements of the third party.
+ 6.2.3 The user shall bear the risk of using third party information and services.
+ 6.2.4 When users get access to the third party information and services, they are subject to the third party's terms and policies.
+ 6.3 Other users
+ 6.3.1 This product contains user content offered by other users. This product does not control or assume legal responsibility for the user content. This product is not obliged to check, monitor, examine, approve, promise or guarantee user content. You must bear the legal responsibility for the risks of using user content and of interacting with other users.
+ 6.3.2 Interaction with other users is the behavior between you and other users. This product does not assume any legal liability for such behavior. You have agreed that this product does not assume any legal responsibility for such interactions.
+ 
+ 7. Compensation
+ 7.1 You have agreed to use this product harmlessly to avoid any complaints, litigation, loss, damage, liability, costs and expenses (including attorney fees) from third parties for the following behaviours.
+ 7.1.1 Using behaviours of this product;
+ 7.1.2 User content;
+ 7.1.3 User violation of this agreement.
+ 7.2 Xiaomi reserves the right of exclusive defense and claim for compensation.
+ 7.3 Unless you have received written consent from Xiaomi, you agree that you shall not unilaterally settle with the third party in a common lawsuit with Xiaomi.
+ 7.4 Xiaomi will make every effort to inform you of such litigation, litigation behaviours or processes.
+ 7.5 This product does not under any circumstances assume any responsibility for you or any third party resulting from any indirect, consequential, punitive, incidental, or special damages. The risk of damage to a computer system or mobile communications equipment database caused by accessing and using this product will be borne by you personally.
+ 
+ 8. Disclaimer
+ 8.1 If the following situations occur, this product does not assume any legal responsibility:
+ 8.1.1 Your personal information shall be provided according to the laws and regulations or the requirements of the relevant government departments;
+ 8.1.2 Information leak due to any improper use by you;
+ 8.1.3 Service interruptions, blockage and other situations which do not meet the requirements of the user due to a hacker attack, computer virus invasion, illegal content, shielding of harassment information, government control and problems relating to technology or communication lines, and other network information security management.
+ 8.1.4 Damage caused by communication line errors, technical problems, network or computer errors, instability and force majeure;
+ 8.1.5 Using this product may incur risks caused by anonymous or pseudonymous threats, defame, offence or illegal content;
+ 8.1.6 The product clearly states that this product will not guarantee the promptness, security or accuracy of the product explicitly, implicitly or in any other form.
+ 
+ 9. Privacy policy
+ The \"Xiaomi Smart Home series products privacy policy\" is part of this agreement which you can find in the last part of this article. Please read carefully all the content in the privacy agreement.
+ 
+ 10. Notice
+ 10.1 Users must provide the Xiaomi account with a recent valid email address.We will not assume any responsibility if your email address cannot be used or for any reason we cannot inform you.
+ 10.2 The notice released by the product and the emails containing such a notice will undoubtedly become a valid notice.
+ 
+ 11. Applicable law
+ 11.1 This agreement applies to the law of the People's Republic of China.
+ 11.2 In the event of a dispute, the relevant parties should try to settle the problem based on the principle of amicable consultation. If no settlement can be reached, the relevant parties must submit their case to the local court where Xiaomi is based.
+ 
+ 12. Independence
+ Some of the clauses in this agreement are not applicable. The other provisions of this agreement continue to apply and non-applicable terms and conditions will be modified in order to comply with the law.
+ 
+ 13. Completeness
+ 13.1 This agreement (including the privacy policy) is the final, complete and exclusive agreement between you and the product. In addition, the agreement supersedes the discussions and agreements of the parties concerned about such matters (including previous end user licenses, and the terms of service and privacy policies). 
+ 13.2 The title of each segment is for read only and contains no legal or contractual obligations.
+ 13.3 Unless written consent has been given by Xiaomi, you may not transfer the rights and obligations specified in this agreement. Any violation of the above-mentioned rules or attempts to transfer will be in vain.
+ 
+ 
+ 
+ Xiaomi Smart Home series products Privacy policies Xiaomi Smart Home series products Privacy policies
+ You can use our services in a variety of different ways, such as by logging into Xiaomi's official website to buy Xiaomi smart hardware products, and by using Xiaomi Smart Home software and services in different terminals. If you share with us the information (for example, by creating a Xiaomi account), we can provide you with better services, such as product updates and advertising with higher relevance to help you make contact with others or share contents with others more easily. Based on this purpose, we will explain to you how we collect and use information, and how you can protect your privacy.
+ Our privacy policies include the following issues:
+ The information we collect.
+ How we collect and use information.
+ How you provide this information selectively, and how to access and update information.
+ Sharing and security of information and range of applications and revision of privacy policies.
+ 
+ The Information we collect
+ We collect two types of information: personal information (personal information is the only data which can be used to identify or contact someone) and non-personal information (i.e. the data is not directly associated with any particular person ).If we combine the personal information and non-personal information, this information will be treated as personal information.
+ 
+ How we collect and use information
+ 
+ Collection and use of personal information
+ When you interact with Xiaomi Communication Technology co., LTD. (hereinafter referred to as \"Xiaomi\" or \"we\") and its associated companies, you may be asked to provide basic personal information to use our basic product services. The personal information may be combined with other information in order to improve our products and services.
+ Below is the type of personal information Xiaomi may collect and some examples of how we use the information.
+ 
+ Collection of personal information
+ When you create a Xiaomi account, download and update Xiaomi software, register at a Xiaomi mobile online retailer and participate in online surveys or in other interactions with Xiaomi, we will ask you to provide personal information, including but not limited to your name, phone number, E-mail address, postal address, etc.
+ When you buy Xiaomi products and services, we will collect personal information, including but not limited to: delivery details, bank accounts, credit card details, billing addresses, credit checks, other financial information, and records of contact and communication, etc.
+ When you use a Xiaomi product to share your content with family and friends, send messages or products or invite others onto the Xiaomi BBS, Xiaomi will collect personal information which is relevant to the above-mentioned people, such as name, mailing address, E-mail address and telephone number.
+ When you first use and activate your Xiaomi mobile device, your mobile user identification information, the only identification number of your mobile device, and the general geographic location of your device will be sent to Smart Home. The above information collection could also apply when updating and restoring the factory settings.
+ 
+ Use of personal information
+ Xiaomi will use your information strictly according to this privacy policy and its update. Your personal information will only be used for purposes which have been confirmed and agreed upon. If we use the information for other purposes, we will ask for your consent in advance. 
+ The personal information we collect will be used to provide you with Xiaomi's products and services, processing your order or performing a contract between you and Xiaomi to ensure the function and security of our products and services, verify your identity and prevent and investigate fraud or other improper use.
+ The personal information we collect will be used for the development of our products and services. However in general, we only use comprehensive and statistical information for this purpose.
+ The personal information we collect will be used to communicate with you, for example, for updates of products or services. We will inform you immediately after the news is released.
+ The personal information we collected will be used for the customized design of the products and for providing you with a more customized service. For example: recommend and display content and advertisements designed only for you or for research.
+ If you participate in Xiaomi's lucky draw, competitions or similar promotional activities, the personal information you provide will be used to manage this kind of activity.
+ Regarding your mobile user identification information, only the identification number of your mobile device can be used to activate your warranty services and specific software license, and we may invite you to participate in the survey. We may also use this information to improve our products and analyze the efficiency of our business operations. Nevertheless, we will not use this information to track your location.
+ Collection and use of non personal information
+ Meanwhile, in order to operate and improve Xiaomi's technology and services, Xiaomi will collect your personal information automatically. This will help Xiaomi provide you with a better user experience and improve service quality.
+ Collection of non-personal information
+ When you create a Xiaomi account, download and update Xiaomi software, register with a Xiaomi mobile online retailer and participate in an online survey or in other interactions with Xiaomi, we will collect your information such as language, zip code, area code and the time zone where you use Xiaomi products.
+ Regarding information relating to the user habits and problems found when using the Xiaomi Smart Home application, we will, according to the need, collect anonymous statistics of how you use the Internet to provide you with a better online experience. In addition, when the Xiaomi Smart Home system is in an abnormal state or crashes, we may collect some information such as the device ID, the Internet protocol address and route data packets in order to determine the root of the problem.
+ Regarding cookies and other technology used to collect information, the Xiaomi website, online services, interactive application software, E-mail messages and advertising may use Cookies and other technology such as pixel tags and web beacons to collect and store your personal information.
+ Log information - when you access Xiaomi Smart Home, our server will automatically record some log information. This kind of server log information may include the following details: IP address, browser types, browser languages, refer source page, operating system, date/time mark and clickstream data.
+ Use of non-personal information
+ The non-personal information we collect such as professions, languages, zip codes, area codes and the time zone where you use your Xiaomi product can help us better understand user behaviors so as to improve our products, services, and advertising campaigns.
+ We can use statistics obtained from the \"user experience improvement program\" to continuously improve the operating experience, running performance, repair problems and function design improvement.
+ The information we collected from cookies and other technologies (such as pixel tags) can bring you a better user experience, and improve our overall service quality. By saving your language preferences for example, we can show our services in your preferred language. We can use pixel marks to send emails in readable format to users, and we will be informed whether the email is open. We can use such information for reducing the E-mails sent to users or stop sending emails.
+ How do users provide information selectively?
+ Everyone has a different focus on privacy. Based on this, we will clearly indicate the way we collect information for you to choose the way you provide information.
+ You are free to decide whether to join the \"user experience improvement plan\", i.e, you can exit the plan by switching off the \"user experience improvement plan\" option.
+ You can modify the location of your device, for example: change or disable the positioning method or positioning server, or modify the accuracy of the location information to change the location information provided by Xiaomi.
+ You can modify your browser settings to reject or accept the cookies according to your own needs. You can also delete it from your storage devices at any time, or make it notify you when you write the cookies.
+ Access and update of personal information
+ By clicking [https://account.xiaomi.com] to log into your account, you will be able to access and update your personal information. You can also delete part of your personal information or ask us to remove your personal account, unless we have to keep the information for legal reasons.
+ Whenever you use our service, we strive to give you access to your personal information. If the information is incorrect, we will try to make you update or delete the information quickly via various means (unless we have to keep this information for legitimate business or legal reasons). When you update your personal information, we may ask you to verify your identity first, and then process your request.
+ We may decline requests which have endless repetition, require too much technology input, risk the privacy of others, or are very unrealistic.
+ As long as we can allow you to access and modify the information, and it does not need too much input, we will provide the service free of charge. We strive to protect our service from accidental or malicious damage. Therefore, when you delete the information from our service, we may not immediately delete the residual copies of the information from the server in use. Therefore the corresponding information stored on the backup system may not be deleted immediately.
+ Share information with third parties
+ Unless this privacy policy includes limited sharing policies, we will keep your personal information confidential and will not share your personal information with any third parties.
+ With your authorization, we will share your personal information with third parties without your approval in the following situations:
+ We will share personal information with third parties because of legal investigation, litigation, compulsory execution or other legal compulsory provisions or requirements.
+ We will provide personal information to our subsidiaries, affiliates, or other trustworthy enterprises or individuals to help us process the personal information on our behalf. We require the above parties to agree to process the personal information according to our terms, privacy policies and any other applicable confidentiality and safety measures.
+ If we restructure, merge or sell, we will, according to current privacy policy constraints keep all personal information we collect confidential and notify all affected users before we transfer the information.
+ We may share the summarized non-personal information reasonably with the public and our partners for business purposes or for protecting the users, for example, when showing overall trends relating to our products and services.
+ Information safety
+ We strive to protect Xiaomi users from their information being unlawfully accessed, manipulated, disclosed or destroyed. To do this, the following special measures are in place:
+ We encrypt many services by using SSL.
+ We will review information collection, storage and processing (including physical security measures) in order to protect various systems from unauthorized access.
+ We only allow Xiaomi staff and authorized personnel to work on behalf of service companies to access personal information, and they must strictly respect the confidentiality terms of the contract. If they fail to perform these obligations, they may be investigated for legal responsibility according to the law, or their working relationship with Xiaomi may be terminated.
+ For us, the safety of your information is very important. Therefore, we will continue to make every effort to ensure the security of your personal information, and we will use storage and comprehensive transmission encryption methods to protect your information from unauthorized access, use or disclosure. Specific encrypted data can only be accessed by the users themselves.
+ Application scope of privacy policies
+ Our privacy policy does not apply to third party products and/or services. Xiaomi Smart Home series products and services may contain third party products and services. When you use a third party product or receive a third party service, they may acquire your information. Therefore, we are here to remind you to read carefully the privacy policies of the third parties concerned.
+ Meanwhile, this privacy policy does not apply to the data collection from external websites after clicking the link.
+ Collection and use of personal information of children
+ We recommend that children under 13 use Xiaomi products or services with the permission and guidance of their guardians.
+ Xiaomi will not collect children's personal information when it is aware that they are children and will not disclose personal information to any third parties. Guardians have the right to refuse Xiaomi and its affiliates to further collect personal information of minors or ask Xiaomi and its affiliates to delete the personal information of minors. If we find we have collected personal information of children under 13, we will delete this information as soon as possible.
+ Revision of privacy policies
+ The privacy policies may be revised. Without your express consent, we will not rescind the rights you enjoy according to this privacy policy, unless we send you notice via the email address you provided to us or if we have made a public announcement on our website.
+"</string>
+    <string name="user_license_btn_text">Terms of Use and Privacy Policy</string>
+    <string name="version_name_string">Current version: %s</string>
+    <string name="videos_group_name_x_num_x" formatted="false">%s | %d items</string>
+    <string name="visible_in_main_device_list">Add to device list</string>
+    <string name="waiting_for_update">Waiting…</string>
+    <string name="water_purifier">Water purifier</string>
+    <string name="water_purifier_subtitle">Tap water TDS: %1$d</string>
+    <string name="weak_device_signal">Weak signal</string>
+    <string name="web_shell_loading">Loading…</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="welcome_i_known">OK</string>
+    <string name="wifi_available_title">Available networks</string>
+    <string name="wifi_change_btn_text">Set</string>
+    <string name="wifi_change_hint">Your Wi-Fi changed</string>
+    <string name="wifi_check_select">Tap to select Wi-Fi</string>
+    <string name="wifi_connection_correct">1. Check if Wi-Fi 2.4G is working</string>
+    <string name="wifi_connection_correct_1">"2. Check if the Wi-Fi password you've entered is correct"</string>
+    <string name="wifi_connection_correct_2">3. Reset the device and connect again</string>
+    <string name="wifi_home_wifi">Home Wi-Fi</string>
+    <string name="wifi_input_content">Enter network name and password manually</string>
+    <string name="wifi_input_name_hint">Enter network name</string>
+    <string name="wifi_input_passwd_hint">Enter Wi-Fi password</string>
+    <string name="wifi_input_wifi">Edit</string>
+    <string name="wifi_log_day">Day</string>
+    <string name="wifi_log_monday">Monday</string>
+    <string name="wifi_log_month">Month</string>
+    <string name="wifi_log_month_title">Month %d</string>
+    <string name="wifi_log_reset_query">Reset travel logs?</string>
+    <string name="wifi_log_set_success">Setup complete</string>
+    <string name="wifi_log_set_success_sub_title">Travel logs are for reference only</string>
+    <string name="wifi_log_stat_at_home_title">Back home time</string>
+    <string name="wifi_log_stat_at_office_title">Back to work time</string>
+    <string name="wifi_log_stat_out_home_title">Departure time</string>
+    <string name="wifi_log_stat_out_office_title">Finished work time</string>
+    <string name="wifi_log_title">Travel logs</string>
+    <string name="wifi_log_week">Week</string>
+    <string name="wifi_log_week_tile">Week %d</string>
+    <string name="wifi_need_open">Turn on Wi-Fi</string>
+    <string name="wifi_office_wifi">Office Wi-Fi</string>
+    <string name="wifi_reconnect_title">Setting up…</string>
+    <string name="wifi_rescan_wifi">Scan again</string>
+    <string name="wifi_save_passwd">Remember password</string>
+    <string name="wifi_scan_new_device">%1$d devices (%2$s) found, tap to connect</string>
+    <string name="wifi_scan_new_device_title">New devices found</string>
+    <string name="wifi_scan_new_plug">%1$d devices found, tap to connect</string>
+    <string name="wifi_select_desc">Choose home or office Wi-Fi network to record your travel time</string>
+    <string name="wifi_select_home_title">Choose home Wi-Fi</string>
+    <string name="wifi_select_office_title">Choose office Wi-Fi</string>
+    <string name="wifi_select_title">Select Wi-Fi</string>
+    <string name="wifi_setting_choose">Tap to connect to Wi-Fi</string>
+    <string name="wifi_setting_connect">Connect</string>
+    <string name="wifi_setting_connection_failed">"Couldn't connect"</string>
+    <string name="wifi_setting_connectting">Connecting…</string>
+    <string name="wifi_setting_icon_text">Choose Wi-Fi for devices to connect</string>
+    <string name="wifi_setting_title">Make sure yellow lights on the devices are flashing</string>
+    <string name="wifi_setting_wifi_opening">Turn on Wi-Fi…</string>
+    <string name="wifi_setting_wifi_scanning">Scanning…</string>
+    <string name="wifi_setting_wifi_title">Connect devices using Wi-Fi</string>
+    <string name="write_a_review_hint">Enter 5-140 characters</string>
+    <string name="write_a_review_title">Add comment</string>
+    <string name="write_review_add_tag_error_text">"Can't add more than 10 tags"</string>
+    <string name="write_review_add_tag_hint_text">Add tag</string>
+    <string name="write_review_comment_edit_hint_text">Like the product? Tell us what you think. You can also take some pictures and attach them to your comments</string>
+    <string name="write_review_comment_error_text">Enter at least 10 characters</string>
+    <string name="write_review_exit_dialog_cancel_text">Cancel</string>
+    <string name="write_review_exit_dialog_ok_text">OK</string>
+    <string name="write_review_exit_dialog_title_text">Discard changes?</string>
+    <string name="write_review_rating_text">Rating</string>
+    <string name="write_review_tag_text">Tag</string>
+    <string name="xiaomi_router">Mi Router</string>
+    <string name="yeelight_beach">Beach</string>
+    <string name="yeelight_bright_value">Brightness:</string>
+    <string name="yeelight_btn_save">Save</string>
+    <string name="yeelight_btn_txt_back">Back</string>
+    <string name="yeelight_btn_txt_del">Delete</string>
+    <string name="yeelight_btn_txt_ok">OK</string>
+    <string name="yeelight_color_desc0">White: pure, simple, and elegant. White gives you a feeling of brightness and vigor, and takes you away from daily routine.</string>
+    <string name="yeelight_color_desc1">Pink is the color of romance and fantasy. It fills your world with dreams, and takes you to the place where you find love and joy.</string>
+    <string name="yeelight_color_desc2">Yellow makes your eyes sparkle. Just like sunshine, it gives a promise of a wonderful time. Time, where darkness is gone.</string>
+    <string name="yeelight_color_desc3">Purple is the color of strong feelings. People who like purple are elegant and self-conscious, and a good eye for beauty.</string>
+    <string name="yeelight_color_preset0">White</string>
+    <string name="yeelight_color_preset1">Romantic</string>
+    <string name="yeelight_color_preset2">Yellow</string>
+    <string name="yeelight_color_preset3">Passion</string>
+    <string name="yeelight_color_value">Color value:</string>
+    <string name="yeelight_hint_enter_color_name">Enter color name</string>
+    <string name="yeelight_name">Yeelight bedside lamp</string>
+    <string name="yeelight_passion">Passion</string>
+    <string name="yeelight_romantic">Romantic</string>
+    <string name="yeelight_sun">Sunlight</string>
+    <string name="yeelight_tips_forusage">Compatible voltage range is 100—240 V. Do not use with adjustable brightness lamps</string>
+    <string name="yeelight_toast_name_too_long">"Can't exceed 4 characters"</string>
+    <string name="yeelight_warf">Waves</string>
+    <string name="yesterday">Yesterday</string>
+</resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="SDcard_tip_is_full_when_take_photo">您需要清理存储卡才能发送照片 :)</string>
     <string name="SDcard_tip_when_send_photo">您需要安装存储卡才能发送照片 :)</string>
     <string name="about_check_update">检查更新</string>
